@@ -47,7 +47,7 @@ System.out.println("Chain color: "+chain2.color +",chain brand:"+ chain2.brand +
 Chain chain3 = new Chain("black","dazzel",100);
 System.out.println("Chain color: "+chain3.color +",chain brand:"+ chain3.brand +",chain price :"+chain3.price);
 
-Chain chain = new Chain("black","dazzel",100);
+Chain chain4 = new Chain("black","dazzel",100);
 System.out.println("Chain color: "+chain4.color +",chain brand:"+ chain4.brand +",chain price :"+chain4.price);
 
 System.out.println("==================================================================================");
