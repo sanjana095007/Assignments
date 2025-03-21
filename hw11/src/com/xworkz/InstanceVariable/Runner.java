@@ -17,6 +17,8 @@ public class Runner {
          cricket.profit();
 
          Brush brush=new Brush(Color.PINK);
+         brush.scrub();
+         brush.clean();
          Virat virat=new Virat(brush,ticket,cricket);
          virat.play();
          virat.clean();
