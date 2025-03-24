@@ -8,7 +8,7 @@ public class Banking {
         public void deposit() {
             System.out.println("the name of the owner is :"+ownername);
             this.accountNumber=123456789L;
-            System.out.println("the account number is :" + this.accountNumber);
+            System.out.println("The account number is :" + this.accountNumber);
         }
 
         void showBalance() { // Package-level instance method

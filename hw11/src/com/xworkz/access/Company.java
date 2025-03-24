@@ -6,7 +6,7 @@ public class Company {
     private int salary;
 
     public void setname() {
-        System.out.println("the name of company is :"+companyname);
+        System.out.println("Yhe name of company is :"+companyname);
         this.salary=30000;
     }
 

@@ -6,7 +6,7 @@ public class Vehicles {
     public void display() {
         car.brand = "BMW";
         car.speed = 65;
-        System.out.println("the name of the car is :" + car.brand);
+        System.out.println("The name of the car is :" + car.brand);
         System.out.println("speed: " + car.speed);
         car.namebrand();
     }

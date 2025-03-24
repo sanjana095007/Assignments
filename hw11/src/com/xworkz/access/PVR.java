@@ -6,7 +6,7 @@ public class PVR {
         movie.title="Dragon";
         movie.duration=3;;
 
-        System.out.println("the name of the movie is :"+movie.title);
+        System.out.println("The name of the movie is :"+movie.title);
         System.out.println("duration is : " + movie.duration +"hrs");
         movie.showDuration();
     }

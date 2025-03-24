@@ -6,7 +6,7 @@ public class Car {
         private String van;
 
         public void namebrand() {
-            System.out.println("the name of the car is :"+brand);
+            System.out.println("The name of the car is :"+brand);
             this.van="Crusor";
             System.out.println("the van name is :"+this.van);
         }

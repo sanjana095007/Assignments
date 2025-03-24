@@ -7,7 +7,7 @@ public class CarShowroom {
     void display(){
         car.brand = "BMW";
         car.namebrand();
-        System.out.println("the name of the car is :"+car.brand);
+        System.out.println("The name of the car is :"+car.brand);
     }
 
     }

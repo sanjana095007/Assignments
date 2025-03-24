@@ -8,6 +8,6 @@ public class TCS {
     void display(){
         company.companyname="TCS";
         company.setname();
-        System.out.println("the name of the company is :"+company.companyname);;
+        System.out.println("The name of the company is :"+company.companyname);;
     }
 }

@@ -8,6 +8,6 @@ public class Shoes {
     void display(){
         product.productName="sanjana";
         product.setName();
-        System.out.println("the name of the emp is :"+product.productName);;
+        System.out.println("The name of the emp is :"+product.productName);;
     }
 }

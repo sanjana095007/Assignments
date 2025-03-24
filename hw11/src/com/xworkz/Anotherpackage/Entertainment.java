@@ -8,6 +8,6 @@ public class Entertainment {
     void display(){
         movie.title="Dragon";
         movie.settitle();
-        System.out.println("the name of the emp is :"+movie.title);;
+        System.out.println("The name of the emp is :"+movie.title);;
     }
 }

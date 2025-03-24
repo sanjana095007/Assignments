@@ -7,7 +7,7 @@ public class Staff {
         company.numberofemp=100;;
 
         System.out.println("the name of the company is :"+company.companyname);
-        System.out.println("the number of employees : " + company.numberofemp);
+        System.out.println("The number of employees : " + company.numberofemp);
         company.setname();
         company.numberofemps();
     }

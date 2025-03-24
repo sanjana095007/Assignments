@@ -7,6 +7,6 @@ public class CustomerBanking {
     void display(){
         banking.ownername="sanjana";
         banking.deposit();
-        System.out.println("the name of the emp is :"+banking.ownername);;
+        System.out.println("The name of the emp is :"+banking.ownername);;
     }
 }

@@ -12,7 +12,7 @@ public class Movie {
     void showDuration() {
         System.out.println("Duration: " + duration + " hrs");
         this.rating=4.5;
-        System.out.println("the rating of the movie out of 5 star :"+this.rating);
+        System.out.println("The rating of the movie out of 5 star :"+this.rating);
 
     }
 

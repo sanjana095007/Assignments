@@ -6,7 +6,7 @@ public class Product {
     private String Details;
 
     public void setName() {
-        System.out.println("the name of the product is :"+productName);
+        System.out.println("The name of the product is :"+productName);
         this.Details="shoe";
         System.out.println("the details of the product is "+this.Details+ "from the puma");
     }
