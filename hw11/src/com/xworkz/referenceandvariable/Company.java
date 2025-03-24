@@ -23,6 +23,7 @@ public class Company {
                 System.out.println("Degree: " + education.degree);
                 System.out.println("Institution: " + education.institution);
                 System.out.println("Year of Completion: " + education.yearOfCompletion);
+                education.display();
             }
         }
     }

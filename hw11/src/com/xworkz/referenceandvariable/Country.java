@@ -15,6 +15,10 @@ public class Country {
     }
 
     void display() {
+        System.out.println("the name of the country is :" +this.name);
+        System.out.println("The population of county is : " + this.population);
+        System.out.println("The currency of county is :" + this.currency);
+        System.out.println("The capital of county is :" + this.capital);
         pirimeminister.display();
 
     }
