@@ -8,7 +8,7 @@ public class Runner {
         Finance finance=new Finance();
         CustomerBanking customerbanking=new CustomerBanking();
         finance.display();
-        System.out.println("===========================================================================");
+        System.out.println("============================================================================");
         Vehicles vehicles=new Vehicles();
         CarShowroom carshowroom =new CarShowroom();
         vehicles.display();
