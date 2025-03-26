@@ -20,6 +20,9 @@ public class Room {
         System.out.println("Room Size: " + roomSize + " sq.m");
         for(HouseKeeper houseskeeper:houseKeeper4)
         {
+            System.out.println("Housekeeper Name: " + houseskeeper.name);
+            System.out.println("Age: " + houseskeeper.age);
+            System.out.println("Years of Experience: " + houseskeeper.experience);
             houseskeeper.display();
         }
     }

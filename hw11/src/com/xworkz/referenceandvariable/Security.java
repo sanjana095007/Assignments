@@ -15,6 +15,9 @@ public class Security {
         System.out.println("the security level  is :"+this.securityLevel);
         System.out.println("the number of guards :"+this.numberOfGuards);
         for(Personal personals:personal4){
+            System.out.println("Personnel Name: " + personals.name);
+            System.out.println("Designation: " + personals.designation);
+            System.out.println("Salary: ₹" + personals.salary);
             personals.display();
         }
     }

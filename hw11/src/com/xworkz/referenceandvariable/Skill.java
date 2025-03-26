@@ -15,6 +15,9 @@ public class Skill {
             System.out.println("Skill Name: " + this.skillName);
             System.out.println("Proficiency Level: " + this.proficiencyLevel);
             System.out.println("Years of Experience: " + this.yearsOfExperience);
+            System.out.println("Company Name: " + experience.companyName);
+            System.out.println("Years Worked: " + experience.yearsWorked);
+            System.out.println("Role: " + experience.role);
             experience.display();
         }
     }

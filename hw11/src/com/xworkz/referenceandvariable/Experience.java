@@ -19,6 +19,9 @@ public class Experience {
             System.out.println("Years Worked: " + yearsWorked);
             System.out.println("Role: " + role);
             for(ExperienceDetails experienceDetails:experience4){
+                System.out.println("Organization Name: " + experienceDetails.organizationName);
+                System.out.println("Duration: " + experienceDetails.duration + " years");
+                System.out.println("Key Achievements: " + experienceDetails.keyAchievements);
                 experienceDetails.display();
             }
         }

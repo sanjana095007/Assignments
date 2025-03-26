@@ -17,9 +17,11 @@ public class State {
     void display(){
         System.out.println("the state name  is :"+this.stateName);
         System.out.println("the population of the state is :"+this.population);
-        System.out.println("the capital City of the state is :"+this.population);
+        System.out.println("the capital City of the state is :"+this.capitalCity);
         for(District districts:district4){
-
+            //System.out.println("the district name  is :"+districts.districtName);
+            //System.out.println("the area of the district is :"+districts.area);
+            //System.out.println("the population of the district is :"+districts.population);
             districts.display();
         }
     }

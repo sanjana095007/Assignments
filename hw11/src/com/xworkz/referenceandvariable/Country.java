@@ -15,10 +15,15 @@ public class Country {
     }
 
     void display() {
+
+        System.out.println("------------------");
         System.out.println("the name of the country is :" +this.name);
         System.out.println("The population of county is : " + this.population);
         System.out.println("The currency of county is :" + this.currency);
         System.out.println("The capital of county is :" + this.capital);
+        //System.out.println("The PrimeMinister name is : " + pirimeminister.name);
+        //System.out.println("The PrimeMinister age is : " + pirimeminister.age);
+        //System.out.println("The PrimeMinister Years is :" + pirimeminister.years);
         pirimeminister.display();
 
     }

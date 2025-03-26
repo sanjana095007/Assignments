@@ -15,6 +15,9 @@ public class Personal {
             System.out.println("Personnel Name: " + name);
             System.out.println("Designation: " + designation);
             System.out.println("Salary: ₹" + salary);
+            System.out.println("Skill Name: " + skill.skillName);
+            System.out.println("Proficiency Level: " + skill.proficiencyLevel);
+            System.out.println("Years of Experience: " + skill.yearsOfExperience);
             skill.display();
         }
     }

@@ -19,6 +19,9 @@ public class City {
             System.out.println("Population: " + this.population);
             System.out.println("Pincode: " + this.pincode);
             for(Ward wards:ward4){
+                //System.out.println("Ward Number: " + wards.wardNumber);
+               // System.out.println("Area Name: " + wards.areaName);
+               // System.out.println("Population: " + wards.population);
                 wards.display();
             }
         }

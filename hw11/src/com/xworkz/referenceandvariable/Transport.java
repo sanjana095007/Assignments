@@ -15,6 +15,8 @@ public class Transport {
         System.out.println("Transport Mode: " + mode);
         System.out.println("Capacity: " + capacity);
         System.out.println("Speed: " + speed + " km/h");
+        System.out.println("the security level  is :"+security.securityLevel);
+        System.out.println("the number of guards :"+security.numberOfGuards);
         security.display();
     }
 }

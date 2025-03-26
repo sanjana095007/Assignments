@@ -16,6 +16,9 @@ public class ExperienceDetails {
             System.out.println("Organization Name: " + organizationName);
             System.out.println("Duration: " + duration + " years");
             System.out.println("Key Achievements: " + keyAchievements);
+            System.out.println("Company Name: " + company.companyName);
+            System.out.println("Location: " + company.location);
+            System.out.println("Employee Count: " + company.employeeCount);
             company.display();
         }
     }

@@ -16,6 +16,9 @@ public class Ward {
             System.out.println("Ward Number: " + this.wardNumber);
             System.out.println("Area Name: " + this.areaName);
             System.out.println("Population: " + this.population);
+            //System.out.println("House Number: " + house.houseNumber);
+            //System.out.println("Street Name: " + house.streetName);
+           // System.out.println("Number of Rooms: " + house.numberOfRooms);
             house.display();
         }
     }

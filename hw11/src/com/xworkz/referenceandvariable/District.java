@@ -19,6 +19,9 @@ public class District {
         System.out.println("the area of the district is :"+this.area);
         System.out.println("the population of the district is :"+this.population);
         for(City cities:city4){
+            //System.out.println("City Name: " + cities.cityName);
+           // System.out.println("Population: " + cities.population);
+           // System.out.println("Pincode: " + cities.pincode);
             cities.display();
         }
     }

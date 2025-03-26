@@ -19,6 +19,9 @@ public class House {
         System.out.println("Street Name: " + streetName);
         System.out.println("Number of Rooms: " + numberOfRooms);
         for(Room rooms:room4){
+            System.out.println("Room Number: " + rooms.roomNumber);
+            System.out.println("Room Type: " + rooms.roomType);
+            System.out.println("Room Size: " +rooms.roomSize + " sq.m");
             rooms.display();
         }
     }
