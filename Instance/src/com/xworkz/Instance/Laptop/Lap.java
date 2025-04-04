@@ -6,23 +6,23 @@ public class Lap {
     }
 
     public void powerOn() {
-        System.out.println("Laptop is powering on...");
+        System.out.println("Laptop is powering on");
     }
 
     public void powerOff() {
-        System.out.println("Laptop is shutting down...");
+        System.out.println("Laptop is shutting down");
     }
 
     public void charge() {
-        System.out.println("Laptop is charging...");
+        System.out.println("Laptop is charging");
     }
 
     public void sleep() {
-        System.out.println("Laptop is entering sleep mode...");
+        System.out.println("Laptop is entering sleep mode");
     }
 
     public void restart() {
-        System.out.println("Laptop is restarting...");
+        System.out.println("Laptop is restarting");
     }
 }
 
