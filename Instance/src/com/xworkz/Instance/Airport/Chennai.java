@@ -6,7 +6,7 @@ public class Chennai extends Airport {
     }
     @Override
     public void land() {
-        System.out.println("An airplane is landing at the airport in chennai");
+        System.out.println("An airplane is landing at the airport in chennai.");
     }
     @Override
     public void takeOff() {

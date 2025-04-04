@@ -15,7 +15,7 @@ public class Dolphin extends Animal {
     }
     @Override
     public void run(){
-        System.out.println("running run method in Animal in Dolphin");
+        System.out.println("running run method in Animal in Dolphin.");
     }
     @Override
     public void play(){

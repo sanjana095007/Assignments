@@ -11,7 +11,7 @@ public class RajivGandhi extends Airport {
     }
     @Override
     public void takeOff() {
-        System.out.println("An airplane is taking off from the airport in Rajiv Gandhi International Airport");
+        System.out.println("An airplane is taking off from the airport in Rajiv Gandhi International Airport.");
     }
     @Override
     public void checkIn() {

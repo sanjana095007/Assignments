@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Omen extends Lap {
     public void features() {
 
-        System.out.println("Omen by HP is designed for high-end gaming.");
+        System.out.println("Omen by HP is designed for high-end gaming");
     }
     @Override
     public void powerOn() {

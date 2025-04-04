@@ -14,7 +14,7 @@ public class Penguin extends Animal {
     }
     @Override
     public void run(){
-        System.out.println("running run method in Animal in Penguin");
+        System.out.println("running run method in Animal in Penguin.");
     }
     @Override
     public void play(){

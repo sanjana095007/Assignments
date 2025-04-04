@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class InorbitMall extends Mall {
     public void visit() {
 
-        System.out.println("Inorbit Mall is a premium shopping destination.");
+        System.out.println("Inorbit Mall is a premium shopping destination");
     }
     @Override
     public void open() {

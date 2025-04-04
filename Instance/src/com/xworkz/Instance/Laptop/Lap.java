@@ -18,7 +18,7 @@ public class Lap {
     }
 
     public void sleep() {
-        System.out.println("Laptop is entering sleep mode");
+        System.out.println("Laptop is entering sleep mode.");
     }
 
     public void restart() {

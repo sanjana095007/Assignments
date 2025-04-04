@@ -15,7 +15,7 @@ public class Fujitsu extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Fujitsu Laptop is charging");
+        System.out.println("Fujitsu Laptop is charging.");
     }
     @Override
     public void sleep() {

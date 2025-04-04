@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class LG extends Lap {
     public void features() {
 
-        System.out.println("LG laptops are lightweight with long battery life.");
+        System.out.println("LG laptops are lightweight with long battery life");
     }
     @Override
     public void powerOn() {

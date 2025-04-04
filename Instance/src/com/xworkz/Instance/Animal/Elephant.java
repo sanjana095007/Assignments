@@ -15,7 +15,7 @@ public class Elephant extends Animal {
     }
     @Override
     public void run(){
-        System.out.println("running run method in Animal in Elephant");
+        System.out.println("running run method in Animal in Elephant.");
     }
     @Override
     public void play(){

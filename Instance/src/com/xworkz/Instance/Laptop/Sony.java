@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Sony extends Lap {
     public void features() {
 
-        System.out.println("Sony VAIO laptops have premium build quality.");
+        System.out.println("Sony VAIO laptops have premium build quality");
     }
     @Override
     public void powerOn() {

@@ -14,7 +14,7 @@ public class EVGA extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("EVGA Laptop is charging");
+        System.out.println("EVGA Laptop is charging.");
     }
     @Override
     public void sleep() {

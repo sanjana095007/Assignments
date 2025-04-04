@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class OrionMall extends Mall {
     public void visit() {
 
-        System.out.println("Orion Mall is a premier shopping mall in Bangalore.");
+        System.out.println("Orion Mall is a premier shopping mall in Bangalore");
     }
     @Override
     public void open() {

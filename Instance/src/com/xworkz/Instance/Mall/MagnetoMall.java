@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class MagnetoMall extends Mall {
     public void visit() {
 
-        System.out.println("Magneto Mall is a famous shopping spot.");
+        System.out.println("Magneto Mall is a famous shopping spot");
     }
     @Override
     public void open() {

@@ -19,7 +19,7 @@ public class Wolf extends Animal {
     }
     @Override
     public void play(){
-        System.out.println("running play method in Animal in Wolf");
+        System.out.println("running play method in Animal in Wolf.");
     }
     @Override
     public void scratch(){

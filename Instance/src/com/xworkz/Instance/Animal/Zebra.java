@@ -18,7 +18,7 @@ public class Zebra extends Animal {
     }
     @Override
     public void play(){
-        System.out.println("running play method in Animal in Zebra");
+        System.out.println("running play method in Animal in Zebra.");
     }
     @Override
     public void scratch(){

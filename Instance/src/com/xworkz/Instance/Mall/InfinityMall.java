@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class InfinityMall extends Mall {
     public void visit() {
 
-        System.out.println("Infinity Mall is a well-known mall in Mumbai.");
+        System.out.println("Infinity Mall is a well-known mall in Mumbai");
     }
     @Override
     public void open() {

@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class MSI extends Lap {
     public void features() {
 
-        System.out.println("MSI is well-known for high-performance gaming laptops.");
+        System.out.println("MSI is well-known for high-performance gaming laptops");
     }
     @Override
     public void powerOn() {

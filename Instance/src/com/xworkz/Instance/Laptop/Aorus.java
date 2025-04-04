@@ -15,7 +15,7 @@ public class Aorus extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Aorus Laptop is charging");
+        System.out.println("Aorus Laptop is charging.");
     }
     @Override
     public void sleep() {

@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class RazerBlade extends Lap {
     public void features() {
 
-        System.out.println("Razer Blade laptops are sleek, powerful, and great for gaming.");
+        System.out.println("Razer Blade laptops are sleek, powerful, and great for gaming");
     }
     @Override
     public void powerOn() {

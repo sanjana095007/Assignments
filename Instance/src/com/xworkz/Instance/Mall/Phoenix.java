@@ -2,7 +2,7 @@ package com.xworkz.Instance.Mall;
 
 public class Phoenix extends Mall {
     public void visit() {
-        System.out.println("Phoenix is a popular shopping destination.");
+        System.out.println("Phoenix is a popular shopping destination");
     }
     @Override
     public void open() {

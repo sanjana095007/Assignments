@@ -14,7 +14,7 @@ public class HP extends Lap{
     }
     @Override
     public void charge() {
-        System.out.println("HP Laptop is charging");
+        System.out.println("HP Laptop is charging.");
     }
     @Override
     public void sleep() {

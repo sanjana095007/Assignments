@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class ElanteMall extends Mall {
     public void visit() {
 
-        System.out.println("Elante Mall is the largest mall in Chandigarh.");
+        System.out.println("Elante Mall is the largest mall in Chandigarh");
     }
     @Override
     public void open() {

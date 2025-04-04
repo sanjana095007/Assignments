@@ -23,6 +23,6 @@ public class Fox extends Animal {
     }
     @Override
     public void scratch(){
-        System.out.println("running scratch method in Animal in Fox");
+        System.out.println("running scratch method in Animal in Fox.");
     }
 }

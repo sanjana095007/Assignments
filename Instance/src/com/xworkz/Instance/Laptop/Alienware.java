@@ -15,7 +15,7 @@ public class Alienware extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Alienware Laptop is charging");
+        System.out.println("Alienware Laptop is charging.");
     }
     @Override
     public void sleep() {

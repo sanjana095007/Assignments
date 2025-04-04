@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class MantriSquare extends Mall {
     public void visit() {
 
-        System.out.println("Mantri Square is a large shopping center in Bangalore.");
+        System.out.println("Mantri Square is a large shopping center in Bangalore");
     }
     @Override
     public void open() {

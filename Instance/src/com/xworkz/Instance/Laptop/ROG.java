@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class ROG extends Lap {
     public void features() {
 
-        System.out.println("ROG (Republic of Gamers) by ASUS offers top-tier gaming laptops.");
+        System.out.println("ROG (Republic of Gamers) by ASUS offers top-tier gaming laptops");
     }
     @Override
     public void powerOn() {

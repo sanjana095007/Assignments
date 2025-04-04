@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Toshiba extends Lap {
     public void features() {
 
-        System.out.println("Toshiba laptops are known for reliability and business use.");
+        System.out.println("Toshiba laptops are known for reliability and business use");
     }
     @Override
     public void powerOn() {

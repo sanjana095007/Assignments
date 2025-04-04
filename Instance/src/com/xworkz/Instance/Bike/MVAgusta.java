@@ -7,7 +7,7 @@ public class MVAgusta extends Bikes{
     }
     @Override
     public void start() {
-        System.out.println("MVAgusta Bike is starting ");
+        System.out.println("MVAgusta Bike is starting");
     }
     @Override
     public void stop() {

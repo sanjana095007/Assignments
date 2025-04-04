@@ -7,7 +7,7 @@ public class Hero extends Bikes {
     }
     @Override
     public void start() {
-        System.out.println("Hero Bike is starting ");
+        System.out.println("Hero Bike is starting");
     }
     @Override
     public void stop() {

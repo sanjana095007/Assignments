@@ -17,7 +17,7 @@ public class Giraffe extends Animal{
     }
     @Override
     public void run(){
-        System.out.println("running run method in Animal in Giraffe");
+        System.out.println("running run method in Animal in Giraffe.");
     }
     @Override
     public void play(){

@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class ProzoneMall extends Mall {
     public void visit() {
 
-        System.out.println("Prozone Mall is a top shopping destination.");
+        System.out.println("Prozone Mall is a top shopping destination");
     }
     @Override
     public void open() {

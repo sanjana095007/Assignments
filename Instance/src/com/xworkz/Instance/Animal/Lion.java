@@ -15,7 +15,7 @@ public class Lion extends Animal{
     }
     @Override
     public void run(){
-        System.out.println("running run method in Animal in Lion");
+        System.out.println("running run method in Animal in Lion.");
     }
     @Override
     public void play(){

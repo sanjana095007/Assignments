@@ -6,7 +6,7 @@ public void ride() {
 }
     @Override
     public void start() {
-        System.out.println("KTM Bike is starting ");
+        System.out.println("KTM Bike is starting");
     }
     @Override
     public void stop() {

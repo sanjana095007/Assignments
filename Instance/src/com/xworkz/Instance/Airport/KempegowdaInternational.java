@@ -7,7 +7,7 @@ public class KempegowdaInternational extends Airport {
     }
     @Override
     public void land() {
-        System.out.println("An airplane is landing at the airport in Kempegowda International");
+        System.out.println("An airplane is landing at the airport in Kempegowda International.");
     }
     @Override
     public void takeOff() {

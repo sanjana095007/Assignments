@@ -3,7 +3,7 @@ package com.xworkz.Instance.Bike;
 public class Benelli extends Bikes {
     public void ride() {
 
-        System.out.println("Benelli bikes offer a unique ride experience.");
+        System.out.println("Benelli bikes offer a unique ride experience");
     }
     @Override
     public void start() {

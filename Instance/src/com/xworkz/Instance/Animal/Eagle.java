@@ -19,7 +19,7 @@ public class Eagle extends Animal {
     }
     @Override
     public void play(){
-        System.out.println("running play method in Animal in Eagle");
+        System.out.println("running play method in Animal in Eagle.");
     }
     @Override
     public void scratch(){

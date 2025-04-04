@@ -15,7 +15,7 @@ public class Apple extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Apple Laptop is charging");
+        System.out.println("Apple Laptop is charging.");
     }
     @Override
     public void sleep() {

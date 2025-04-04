@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Microsoft extends Lap {
     public void features() {
 
-        System.out.println("Microsoft Surface laptops provide great Windows integration.");
+        System.out.println("Microsoft Surface laptops provide great Windows integration");
     }
     @Override
     public void powerOn() {

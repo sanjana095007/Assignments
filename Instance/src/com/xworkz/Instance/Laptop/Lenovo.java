@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Lenovo extends Lap {
     public void features() {
 
-        System.out.println("Lenovo laptops offer great versatility and battery life.");
+        System.out.println("Lenovo laptops offer great versatility and battery life");
     }
     @Override
     public void powerOn() {

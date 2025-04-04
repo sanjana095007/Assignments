@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Legion extends Lap {
     public void features() {
 
-        System.out.println("Legion by Lenovo delivers powerful gaming experiences.");
+        System.out.println("Legion by Lenovo delivers powerful gaming experiences");
     }
     @Override
     public void powerOn() {

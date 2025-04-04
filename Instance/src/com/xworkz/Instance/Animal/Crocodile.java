@@ -23,6 +23,6 @@ package com.xworkz.Instance.Animal;
         }
         @Override
         public void scratch(){
-            System.out.println("running scratch method in Animal in Crocodile");
+            System.out.println("running scratch method in Animal in Crocodile.");
         }
 }

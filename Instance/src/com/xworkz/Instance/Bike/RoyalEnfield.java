@@ -8,7 +8,7 @@ public class RoyalEnfield extends Bikes {
     }
     @Override
     public void start() {
-        System.out.println("RoyalEnfield Bike is starting ");
+        System.out.println("RoyalEnfield Bike is starting");
     }
     @Override
     public void stop() {

@@ -14,7 +14,7 @@ public class Huawei extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Huawei Laptop is charging");
+        System.out.println("Huawei Laptop is charging.");
     }
     @Override
     public void sleep() {

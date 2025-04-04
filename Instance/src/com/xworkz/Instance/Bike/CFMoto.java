@@ -7,7 +7,7 @@ public class CFMoto extends Bikes {
     }
     @Override
     public void start() {
-        System.out.println("CFMoto Bike is starting ");
+        System.out.println("CFMoto Bike is starting.");
     }
     @Override
     public void stop() {

@@ -7,7 +7,7 @@ public class Vespa extends Bikes {
     }
     @Override
     public void start() {
-        System.out.println("Vespa Bike is starting ");
+        System.out.println("Vespa Bike is starting");
     }
     @Override
     public void stop() {

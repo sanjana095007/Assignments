@@ -3,7 +3,7 @@ package com.xworkz.Instance.Bike;
 public class Kawasaki extends Bikes {
     public void ride() {
 
-        System.out.println("Kawasaki is zooming past traffic.");
+        System.out.println("Kawasaki is zooming past traffic");
     }
     @Override
     public void start() {

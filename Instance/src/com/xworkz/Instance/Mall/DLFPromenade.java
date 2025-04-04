@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class DLFPromenade extends Mall {
     public void visit() {
 
-        System.out.println("DLF Promenade is a popular shopping mall in Delhi.");
+        System.out.println("DLF Promenade is a popular shopping mall in Delhi");
     }
     @Override
     public void open() {

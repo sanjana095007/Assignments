@@ -19,7 +19,7 @@ public class Hippopotamus extends Animal {
     }
     @Override
     public void play(){
-        System.out.println("running play method in Animal in Hippopotamus");
+        System.out.println("running play method in Animal in Hippopotamus.");
     }
     @Override
     public void scratch(){

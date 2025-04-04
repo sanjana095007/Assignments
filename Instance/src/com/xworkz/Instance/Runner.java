@@ -8,7 +8,7 @@ import com.xworkz.Instance.Mall.*;
 
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("=========================animal=====================================================");
+        System.out.println("===========================animal=====================================================");
         Animal animal=new Bear();
         animal.run();
         animal.play();

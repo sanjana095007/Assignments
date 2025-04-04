@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class SelectCityWalk extends Mall {
     public void visit() {
 
-        System.out.println("Select City Walk is a luxurious mall in Delhi.");
+        System.out.println("Select City Walk is a luxurious mall in Delhi");
     }
     @Override
     public void open() {

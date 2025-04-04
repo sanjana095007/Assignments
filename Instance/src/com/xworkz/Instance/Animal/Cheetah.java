@@ -23,6 +23,6 @@ public class Cheetah extends Animal {
     }
     @Override
     public void scratch(){
-        System.out.println("running scratch method in Animal in Cheetah");
+        System.out.println("running scratch method in Animal in Cheetah.");
     }
 }

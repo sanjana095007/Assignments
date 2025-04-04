@@ -8,7 +8,7 @@ public class Bear extends Animal {
     }
     @Override
     public void sleep(){
-        System.out.println("running sleep method in Animal in Bear");
+        System.out.println("running sleep method in Animal in Bear.");
     }
     @Override
     public void drink(){

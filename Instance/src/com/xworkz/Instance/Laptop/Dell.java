@@ -15,7 +15,7 @@ public class Dell extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Dell Laptop is charging");
+        System.out.println("Dell Laptop is charging.");
     }
     @Override
     public void sleep() {

@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class RCityMall extends Mall {
     public void visit() {
 
-        System.out.println("R City Mall is a lively shopping mall in Mumbai.");
+        System.out.println("R City Mall is a lively shopping mall in Mumbai");
     }
     @Override
     public void open() {

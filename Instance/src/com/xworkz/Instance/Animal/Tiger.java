@@ -18,7 +18,7 @@ public class Tiger extends Animal{
     }
     @Override
     public void play(){
-        System.out.println("running play method in Animal in Tiger");
+        System.out.println("running play method in Animal in Tiger.");
     }
     @Override
     public void scratch(){

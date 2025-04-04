@@ -15,7 +15,7 @@ public class Gorilla extends Animal {
     }
     @Override
     public void run(){
-        System.out.println("running run method in Animal in Gorilla");
+        System.out.println("running run method in Animal in Gorilla.");
     }
     @Override
     public void play(){

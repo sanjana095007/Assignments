@@ -7,7 +7,7 @@ public class HarleyDavidson extends Bikes {
     }
     @Override
     public void start() {
-        System.out.println("HarleyDavidson Bike is starting ");
+        System.out.println("HarleyDavidson Bike is starting");
     }
     @Override
     public void stop() {

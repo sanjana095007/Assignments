@@ -7,7 +7,7 @@ public class Bikes {
         }
 
         public void start() {
-            System.out.println("Bike is starting");
+            System.out.println("Bike is starting.");
         }
 
         public void stop() {

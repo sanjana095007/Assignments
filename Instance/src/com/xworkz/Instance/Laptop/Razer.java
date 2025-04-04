@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Razer extends Lap {
     public void features() {
 
-        System.out.println("Razer laptops are designed for gamers with top-tier specs.");
+        System.out.println("Razer laptops are designed for gamers with top-tier specs");
     }
     @Override
     public void powerOn() {

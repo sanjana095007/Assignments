@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class Mall {
 
     public Mall() {
-        System.out.println("No-arg constructor of Mall");
+        System.out.println("No-arg constructor of Mall.");
     }
 
     public void open() {

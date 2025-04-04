@@ -15,7 +15,7 @@ public class Asus extends Lap {
     }
     @Override
     public void charge() {
-        System.out.println("Asus Laptop is charging");
+        System.out.println("Asus Laptop is charging.");
     }
     @Override
     public void sleep() {

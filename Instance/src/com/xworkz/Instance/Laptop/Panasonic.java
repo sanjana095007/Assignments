@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Panasonic extends Lap {
     public void features() {
 
-        System.out.println("Panasonic Toughbooks are rugged and durable for extreme use.");
+        System.out.println("Panasonic Toughbooks are rugged and durable for extreme use");
     }
     @Override
     public void powerOn() {

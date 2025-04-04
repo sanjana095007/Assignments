@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class ExpressAvenue extends Mall {
     public void visit() {
 
-        System.out.println("Express Avenue is a popular mall in Chennai.");
+        System.out.println("Express Avenue is a popular mall in Chennai");
     }
     @Override
     public void open() {

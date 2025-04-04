@@ -2,7 +2,7 @@ package com.xworkz.Instance.Airport;
 
 public class Airport {
     public Airport() {
-        System.out.println("No-arg constructor of Airport");
+        System.out.println("No-arg constructor of Airport.");
     }
 
     public void land() {
@@ -10,7 +10,7 @@ public class Airport {
     }
 
     public void takeOff() {
-        System.out.println("An airplane is taking off from the airport");
+        System.out.println("An airplane is taking off from the airport.");
     }
 
     public void checkIn() {

@@ -4,7 +4,7 @@ package com.xworkz.Instance.Bike;
 public class Bajaj extends Bikes {
     public void ride() {
 
-        System.out.println("Bajaj is efficient and powerful.");
+        System.out.println("Bajaj is efficient and powerful");
     }
     @Override
     public void start() {

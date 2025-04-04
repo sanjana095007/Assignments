@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class AmbienceMall extends Mall {
     public void visit() {
 
-        System.out.println("Ambience Mall is one of the biggest malls in Gurgaon.");
+        System.out.println("Ambience Mall is one of the biggest malls in Gurgaon");
     }
     @Override
     public void open() {

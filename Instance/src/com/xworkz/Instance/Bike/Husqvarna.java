@@ -2,7 +2,7 @@ package com.xworkz.Instance.Bike;
 
 public class Husqvarna extends Bikes {
     public void ride() {
-        System.out.println("Husqvarna is designed for off-road and performance.");
+        System.out.println("Husqvarna is designed for off-road and performance");
     }
     @Override
     public void start() {

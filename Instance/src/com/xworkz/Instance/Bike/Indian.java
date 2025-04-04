@@ -3,7 +3,7 @@ package com.xworkz.Instance.Bike;
 public class Indian extends Bikes {
     public void ride() {
 
-        System.out.println("Indian bikes are perfect for cruising.");
+        System.out.println("Indian bikes are perfect for cruising");
     }
     @Override
     public void start() {

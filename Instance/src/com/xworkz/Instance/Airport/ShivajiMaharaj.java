@@ -22,6 +22,6 @@ public class ShivajiMaharaj extends Airport {
     }
     @Override
     public void board() {
-        System.out.println("Passengers are boarding the flight in Chhatrapati Shivaji Maharaj International Airport");
+        System.out.println("Passengers are boarding the flight in Chhatrapati Shivaji Maharaj International Airport.");
     }
 }

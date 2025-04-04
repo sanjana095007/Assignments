@@ -4,7 +4,7 @@ package com.xworkz.Instance.Mall;
 public class VivianaMall extends Mall {
     public void visit() {
 
-        System.out.println("Viviana Mall is a family-friendly shopping center.");
+        System.out.println("Viviana Mall is a family-friendly shopping center");
     }
     @Override
     public void open() {

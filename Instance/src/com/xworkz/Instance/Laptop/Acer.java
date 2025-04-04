@@ -11,7 +11,7 @@ public class Acer extends Lap {
     }
     @Override
     public void powerOff() {
-        System.out.println("Acer Laptop is shutting down");
+        System.out.println("Acer Laptop is shutting down.");
     }
     @Override
     public void charge() {

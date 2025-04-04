@@ -2,7 +2,7 @@ package com.xworkz.Instance.Mall;
 
 public class PalladiumMall extends Mall {
     public void visit() {
-        System.out.println("Palladium Mall is an elite shopping hub.");
+        System.out.println("Palladium Mall is an elite shopping hub");
     }
     @Override
     public void open() {

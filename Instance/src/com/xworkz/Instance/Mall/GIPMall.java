@@ -3,7 +3,7 @@ package com.xworkz.Instance.Mall;
 public class GIPMall extends Mall {
     public void visit() {
 
-        System.out.println("The Great India Place Mall is in Noida.");
+        System.out.println("The Great India Place Mall is in Noida");
     }
     @Override
     public void open() {

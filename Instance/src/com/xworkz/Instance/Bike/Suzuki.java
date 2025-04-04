@@ -7,7 +7,7 @@ public class Suzuki extends Bikes {
     }
     @Override
     public void start() {
-        System.out.println("Suzuki Bike is starting ");
+        System.out.println("Suzuki Bike is starting");
     }
     @Override
     public void stop() {

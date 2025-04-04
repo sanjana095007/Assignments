@@ -3,7 +3,7 @@ package com.xworkz.Instance.Laptop;
 public class Samsung extends Lap {
     public void features() {
 
-        System.out.println("Samsung laptops offer a great combination of design and performance.");
+        System.out.println("Samsung laptops offer a great combination of design and performance");
     }
     @Override
     public void powerOn() {

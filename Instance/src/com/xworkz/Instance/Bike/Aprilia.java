@@ -2,7 +2,7 @@ package com.xworkz.Instance.Bike;
 
 public class Aprilia extends Bikes {
     public void ride() {
-        System.out.println("Aprilia offers a stylish ride.");
+        System.out.println("Aprilia offers a stylish ride");
     }
     @Override
     public void start() {

@@ -11,7 +11,7 @@ public class Cat extends Animal {
     }
     @Override
     public void drink(){
-        System.out.println("running drink method in Animal in Cat");
+        System.out.println("running drink method in Animal in Cat.");
     }
     @Override
     public void run(){

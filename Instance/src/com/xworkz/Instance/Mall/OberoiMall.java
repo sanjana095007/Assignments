@@ -4,7 +4,7 @@ package com.xworkz.Instance.Mall;
 public class OberoiMall extends Mall {
     public void visit() {
 
-        System.out.println("Oberoi Mall offers a luxurious shopping experience.");
+        System.out.println("Oberoi Mall offers a luxurious shopping experience");
     }
     @Override
     public void open() {
