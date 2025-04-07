@@ -6,6 +6,8 @@ import com.xworkz.Instance.Bike.*;
 import com.xworkz.Instance.Laptop.*;
 import com.xworkz.Instance.Mall.*;
 
+import javax.crypto.Mac;
+
 public class Runner {
     public static void main(String[] args) {
         System.out.println("===========================animal=====================================================");
@@ -792,6 +794,225 @@ public class Runner {
         vivianaMall.open();
         vivianaMall.shop();
         System.out.println("======================================================================================");
+        Banglore blg = new Banglore();
+        blg.boarding();
+        blg.ticket(blg);
+        System.out.println("================================================================================");
+        InternationalFlights IF=new InternationalFlights();
+        IF.verifyPassport();
+        IF.Arrival(IF);
+        System.out.println("================================================================================");
+        InternationalTerminal internationalTerminal=new InternationalTerminal();
+        internationalTerminal.announceFlight();
+        internationalTerminal.handleDeparture(internationalTerminal);
+        System.out.println("================================================================================");
+        MarinaBeach marinaBeach=new MarinaBeach();
+        marinaBeach.boarding();
+        marinaBeach.pricing(marinaBeach);
+        System.out.println("================================================================================");
+        Alligators alligators=new Alligators();
+        alligators.Breath();
+        alligators.swims(alligators);
+        System.out.println("================================================================================");
+        Baboons baboons=new Baboons();
+        baboons.climb();
+        baboons.chatter(baboons);
+        System.out.println("================================================================================");
+        Canidae canidae=new Canidae();
+        canidae.hunting();
+        canidae.walking(canidae);
+        System.out.println("================================================================================");
+        Colubridae colubridae=new Colubridae();
+        colubridae.crawl();
+        colubridae.hunt(colubridae);
+        System.out.println("================================================================================");
+        Dingo dingo=new Dingo();
+        dingo.makessounds();
+        dingo.sniffTrail(dingo);
+        System.out.println("================================================================================");
+        GaintPanda gaintPanda=new GaintPanda();
+        gaintPanda.sleep();
+        gaintPanda.eating(gaintPanda);
+        System.out.println("================================================================================");
+        GentooPenguin gentooPenguin=new GentooPenguin();
+        gentooPenguin.slide();
+        gentooPenguin.Jump(gentooPenguin);
+        System.out.println("================================================================================");
+        HarpyEagle harpyEagle=new HarpyEagle();
+        harpyEagle.swoopDown();
+        harpyEagle.hunt(harpyEagle);
+        System.out.println("================================================================================");
+        Jaguar jaguar = new Jaguar();
+        jaguar.eating();
+        jaguar.hunt(jaguar);
+        System.out.println("================================================================================");
+        Leopard leopard=new Leopard();
+        leopard.hunt();
+        leopard.drinking(leopard);
+        System.out.println("================================================================================");
+        Mammoth mammoth=new Mammoth();
+        mammoth.trumpetSound();
+        mammoth.roamIceAge(mammoth);
+        System.out.println("================================================================================");
+        Okapi okapi=new Okapi();
+        okapi.nibblePlants();
+        okapi.exploreForest(okapi);
+        System.out.println("================================================================================");
+        RedFox redFox=new RedFox();
+        redFox.hide();
+        redFox.exploreWoods(redFox);
+        System.out.println("================================================================================");
+        Reindeer reindeer=new Reindeer();
+        reindeer.drinking();
+        reindeer.walk(reindeer);
+        System.out.println("================================================================================");
+        SnowyOwl snowyOwl=new SnowyOwl();
+        snowyOwl.glide();
+        snowyOwl.hunt(snowyOwl);
+        System.out.println("================================================================================");
+        TreeKangaroo treeKangaroo=new TreeKangaroo();
+        treeKangaroo.restOnTree();
+        treeKangaroo.hopAround(treeKangaroo);
+        System.out.println("================================================================================");
+        Whale whale=new Whale();
+        whale.sounds();
+        whale.diveDeep(whale);
+        System.out.println("================================================================================");
+        ApriliaRS660 apriliaRS660=new ApriliaRS660();
+        apriliaRS660.activateSportMode();
+        apriliaRS660.prepareRide(apriliaRS660);
+        System.out.println("================================================================================");
+        BajajPulsar bajajPulsar=new BajajPulsar();
+        bajajPulsar.boostPerformance();
+        bajajPulsar.beginJourney(bajajPulsar);
+        System.out.println("================================================================================");
+        BenelliImperiale benelliImperiale=new BenelliImperiale();
+        benelliImperiale.enableClassicMode();
+        benelliImperiale.initiateCruise(benelliImperiale);
+        System.out.println("================================================================================");
+
+        BMWR1250GS bmwr1250GS=new BMWR1250GS();
+        bmwr1250GS.enableEnduroMode();
+        bmwr1250GS.startAdventure(bmwr1250GS);
+        System.out.println("================================================================================");
+
+        CFMoto650MT cfMoto650MT=new CFMoto650MT();
+        cfMoto650MT.enableEcoBoost();
+        cfMoto650MT.launchTouringMode(cfMoto650MT);
+        System.out.println("================================================================================");
+        DucatiPanigaleV4 ducatiPanigaleV4=new DucatiPanigaleV4();
+        ducatiPanigaleV4.activateQuickShift();
+        ducatiPanigaleV4.initiateRaceMode(ducatiPanigaleV4);
+        System.out.println("================================================================================");
+
+        HarleyIron883 harleyIron883=new HarleyIron883();
+        harleyIron883.enableThunderMode();
+        harleyIron883.cruiseHighway(harleyIron883);
+        System.out.println("================================================================================");
+
+        HeroXpulse200 heroXpulse200=new HeroXpulse200();
+        heroXpulse200.activateNavigationAssist();
+        heroXpulse200.beginTrailRide(heroXpulse200);
+        System.out.println("================================================================================");
+
+        HusqvarnaSvartpilen husqvarnaSvartpilen=new HusqvarnaSvartpilen();
+        husqvarnaSvartpilen.Ride();
+        husqvarnaSvartpilen.startUrbanScramble(husqvarnaSvartpilen);
+        System.out.println("================================================================================");
+
+        KawasakiNinja kawasakiNinja=new KawasakiNinja();
+        kawasakiNinja.Control();
+        kawasakiNinja.initiateTrackMode(kawasakiNinja);
+        System.out.println("================================================================================");
+
+        KTMRc390 ktmRc390=new KTMRc390();
+        ktmRc390.launch();
+        ktmRc390.engageRaceMode(ktmRc390);
+        System.out.println("================================================================================");
+
+        MotoGuzziV7 motoGuzziV7=new MotoGuzziV7();
+        motoGuzziV7.speed();
+        motoGuzziV7.beginClassicRide(motoGuzziV7);
+        System.out.println("================================================================================");
+
+        RoyalEnfieldClassic royalEnfieldClassic=new RoyalEnfieldClassic();
+        royalEnfieldClassic.thump();
+        royalEnfieldClassic.startVintageCruise(royalEnfieldClassic);
+        System.out.println("================================================================================");
+
+        SuzukiGixxer suzukiGixxer=new SuzukiGixxer();
+        suzukiGixxer.Engine();
+        suzukiGixxer.beginStreetRide(suzukiGixxer);
+        System.out.println("================================================================================");
+        TVSApacheRTR tvsApacheRTR=new TVSApacheRTR();
+        tvsApacheRTR.Power();
+        tvsApacheRTR.startCityRace(tvsApacheRTR);
+        System.out.println("================================================================================");
+        VespaSXL vespaSXL=new VespaSXL();
+        vespaSXL.ringBell();
+        vespaSXL.beginScooterCruise(vespaSXL);
+
+        System.out.println("================================================================================");
+        YamahaR15 yamahaR15=new YamahaR15();
+        yamahaR15.Boost();
+        yamahaR15.launchSportMode(yamahaR15);
+        System.out.println("================================================================================");
+
+        AcerNitro5 acerNitro5=new AcerNitro5();
+        acerNitro5.Gaming();
+        acerNitro5.startGamingSession(acerNitro5);
+        System.out.println("================================================================================");
+
+        Aorus17X aorus17X=new Aorus17X();
+        aorus17X.Keyboard();
+        aorus17X.initiatePerformanceMode(aorus17X);
+        System.out.println("================================================================================");
+        AsusROGStrix asusROGStrix=new AsusROGStrix();
+        asusROGStrix.power();
+        asusROGStrix.startGamingArena(asusROGStrix);
+        System.out.println("================================================================================");
+        DellXPS dellXPS=new DellXPS();
+        dellXPS.Display();
+        dellXPS.launchProductivitySuite(dellXPS);
+        System.out.println("================================================================================");
+        HPSpectreX360 hpSpectreX360=new HPSpectreX360();
+        hpSpectreX360.Touch();
+        hpSpectreX360.startCreativeWorkflow(hpSpectreX360);
+        System.out.println("================================================================================");
+        LenovoLegion5Pro lenovoLegion5Pro=new LenovoLegion5Pro();
+        lenovoLegion5Pro.enableTurboCooling();
+        lenovoLegion5Pro.initiateBattleMode(lenovoLegion5Pro);
+        System.out.println("================================================================================");
+        LenovoThinkPad lenovoThinkPad=new LenovoThinkPad();
+        lenovoThinkPad.activateBusinessMode();
+        lenovoThinkPad.startOfficeSession(lenovoThinkPad);
+        System.out.println("================================================================================");
+        LGGram17 lgGram17=new LGGram17();
+        lgGram17.activateBatterySaver();
+        lgGram17.startWorkSession(lgGram17);
+        System.out.println("================================================================================");
+        MacBookPro macc =new MacBookPro();
+        macc.ProMotion();
+        macc.launchCreativeSuite(macc);
+        System.out.println("================================================================================");
+        SamsungGalaxyBook3 samsungGalaxyBook3=new SamsungGalaxyBook3();
+        samsungGalaxyBook3.connectWithGalaxyEcosystem();
+        samsungGalaxyBook3.startSmartSync(samsungGalaxyBook3);
+        System.out.println("================================================================================");
+        SonyVaioZ sonyVaioZ=new SonyVaioZ();
+        sonyVaioZ.enableCarbonFiberMode();
+        sonyVaioZ.launchPerformanceSuite(sonyVaioZ);
+        System.out.println("================================================================================");
+
+        SurfaceLaptop5 surfaceLaptop=new SurfaceLaptop5();
+        surfaceLaptop.enableTouchAndInk();
+        surfaceLaptop.launchDesignApp(surfaceLaptop);
+        System.out.println("================================================================================");
+
+
+
+
+
 
     }
 
