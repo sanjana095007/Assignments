@@ -4,14 +4,14 @@ public class ApriliaRS660 extends Aprilia {
     public void prepareRide(Aprilia aprilia){
         aprilia.brake();
         if(aprilia instanceof ApriliaRS660){
-            System.out.println("Is bike an instance of ApriliaRS660?");
+            System.out.println("Is aprilia an instance of ApriliaRS660");
             ApriliaRS660 rs660 = (ApriliaRS660) aprilia;
-            rs660.activateSportMode();
+            rs660.SportMode();
         }
     }
 
-    public void activateSportMode(){
-        System.out.println("Activating Sport Mode on the Aprilia RS 660.");
+    public void SportMode(){
+        System.out.println("running the SportMode");
     }
 }
 

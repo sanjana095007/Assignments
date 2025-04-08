@@ -4,13 +4,13 @@ public class SurfaceLaptop5 extends Microsoft {
     public void launchDesignApp(Microsoft microsoft){
         microsoft.features();
         if(microsoft instanceof SurfaceLaptop5){
-            System.out.println("Is laptop an instance of SurfaceLaptop5?");
+            System.out.println("Is microsoft an instance of SurfaceLaptop5");
             SurfaceLaptop5 surface = (SurfaceLaptop5) microsoft;
-            surface.enableTouchAndInk();
+            surface.ScreenTouch();
         }
     }
 
-    public void enableTouchAndInk(){
-        System.out.println("Touch and Surface Pen input enabled on Surface Laptop 5.");
+    public void ScreenTouch(){
+        System.out.println("running Screen Touch");
     }
 }

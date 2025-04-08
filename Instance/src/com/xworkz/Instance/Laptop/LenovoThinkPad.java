@@ -4,13 +4,13 @@ public class LenovoThinkPad extends Lenovo {
     public void startOfficeSession(Lenovo lenovo){
         lenovo.features();
         if(lenovo instanceof LenovoThinkPad){
-            System.out.println("Is laptop an instance of LenovoThinkPad?");
+            System.out.println("Is lenovo an instance of LenovoThinkPad");
             LenovoThinkPad thinkPad = (LenovoThinkPad) lenovo;
-            thinkPad.activateBusinessMode();
+            thinkPad.battery();
         }
     }
 
-    public void activateBusinessMode(){
-        System.out.println("Business mode activated on Lenovo ThinkPad for efficient multitasking.");
+    public void battery(){
+        System.out.println("battery");
     }
 }

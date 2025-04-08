@@ -879,7 +879,7 @@ public class Runner {
         whale.diveDeep(whale);
         System.out.println("================================================================================");
         ApriliaRS660 apriliaRS660=new ApriliaRS660();
-        apriliaRS660.activateSportMode();
+        apriliaRS660.SportMode();
         apriliaRS660.prepareRide(apriliaRS660);
         System.out.println("================================================================================");
         BajajPulsar bajajPulsar=new BajajPulsar();
@@ -887,17 +887,17 @@ public class Runner {
         bajajPulsar.beginJourney(bajajPulsar);
         System.out.println("================================================================================");
         BenelliImperiale benelliImperiale=new BenelliImperiale();
-        benelliImperiale.enableClassicMode();
+        benelliImperiale.ClassicMode();
         benelliImperiale.initiateCruise(benelliImperiale);
         System.out.println("================================================================================");
 
         BMWR1250GS bmwr1250GS=new BMWR1250GS();
-        bmwr1250GS.enableEnduroMode();
+        bmwr1250GS.Speed();
         bmwr1250GS.startAdventure(bmwr1250GS);
         System.out.println("================================================================================");
 
         CFMoto650MT cfMoto650MT=new CFMoto650MT();
-        cfMoto650MT.enableEcoBoost();
+        cfMoto650MT.EcoBoost();
         cfMoto650MT.launchTouringMode(cfMoto650MT);
         System.out.println("================================================================================");
         DucatiPanigaleV4 ducatiPanigaleV4=new DucatiPanigaleV4();
@@ -906,12 +906,12 @@ public class Runner {
         System.out.println("================================================================================");
 
         HarleyIron883 harleyIron883=new HarleyIron883();
-        harleyIron883.enableThunderMode();
+        harleyIron883.ThunderMode();
         harleyIron883.cruiseHighway(harleyIron883);
         System.out.println("================================================================================");
 
         HeroXpulse200 heroXpulse200=new HeroXpulse200();
-        heroXpulse200.activateNavigationAssist();
+        heroXpulse200.performance();
         heroXpulse200.beginTrailRide(heroXpulse200);
         System.out.println("================================================================================");
 
@@ -980,15 +980,15 @@ public class Runner {
         hpSpectreX360.startCreativeWorkflow(hpSpectreX360);
         System.out.println("================================================================================");
         LenovoLegion5Pro lenovoLegion5Pro=new LenovoLegion5Pro();
-        lenovoLegion5Pro.enableTurboCooling();
+        lenovoLegion5Pro.TurboCooling();
         lenovoLegion5Pro.initiateBattleMode(lenovoLegion5Pro);
         System.out.println("================================================================================");
         LenovoThinkPad lenovoThinkPad=new LenovoThinkPad();
-        lenovoThinkPad.activateBusinessMode();
+        lenovoThinkPad.battery();
         lenovoThinkPad.startOfficeSession(lenovoThinkPad);
         System.out.println("================================================================================");
         LGGram17 lgGram17=new LGGram17();
-        lgGram17.activateBatterySaver();
+        lgGram17.BatterySaver();
         lgGram17.startWorkSession(lgGram17);
         System.out.println("================================================================================");
         MacBookPro macc =new MacBookPro();
@@ -996,16 +996,16 @@ public class Runner {
         macc.launchCreativeSuite(macc);
         System.out.println("================================================================================");
         SamsungGalaxyBook3 samsungGalaxyBook3=new SamsungGalaxyBook3();
-        samsungGalaxyBook3.connectWithGalaxyEcosystem();
+        samsungGalaxyBook3.speed();
         samsungGalaxyBook3.startSmartSync(samsungGalaxyBook3);
         System.out.println("================================================================================");
         SonyVaioZ sonyVaioZ=new SonyVaioZ();
-        sonyVaioZ.enableCarbonFiberMode();
+        sonyVaioZ.version();
         sonyVaioZ.launchPerformanceSuite(sonyVaioZ);
         System.out.println("================================================================================");
 
         SurfaceLaptop5 surfaceLaptop=new SurfaceLaptop5();
-        surfaceLaptop.enableTouchAndInk();
+        surfaceLaptop.ScreenTouch();
         surfaceLaptop.launchDesignApp(surfaceLaptop);
         System.out.println("================================================================================");
 

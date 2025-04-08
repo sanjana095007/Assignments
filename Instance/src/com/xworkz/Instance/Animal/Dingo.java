@@ -11,7 +11,7 @@ public class Dingo extends Fox {
     }
 
     public void makessounds(){
-        System.out.println("running the makessounds method");
+        System.out.println("running the makes sounds method");
     }
 }
 

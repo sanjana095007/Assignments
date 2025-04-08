@@ -4,7 +4,7 @@ public class BajajPulsar extends Bajaj {
     public void beginJourney(Bajaj bajaj){
         bajaj.honk();
         if(bajaj instanceof BajajPulsar){
-            System.out.println("Is bike an instance of BajajPulsar?");
+            System.out.println("Is bajaj an instance of BajajPulsar");
             BajajPulsar pulsar = (BajajPulsar) bajaj;
             pulsar.boostPerformance();
         }
