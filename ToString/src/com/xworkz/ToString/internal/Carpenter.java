@@ -14,4 +14,8 @@ public class Carpenter {
     public String toString() {
         return "Carpenter name: " + name + ", Experience: " + experience + " years, Specialty: " + specialty;
     }
+    @Override
+    public int hashCode() {
+        return 115;
+    }
 }

@@ -13,4 +13,8 @@ public class Company {
     public String tostring(){
         return "name :"+name+" "+"noofemp :"+noofemp+" "+"salary :"+salary;
     }
+    @Override
+    public int hashCode() {
+        return 119;
+    }
 }

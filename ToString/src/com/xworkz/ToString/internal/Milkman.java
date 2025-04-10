@@ -14,5 +14,9 @@ public class Milkman {
     public String toString() {
         return "Milkman: " + name + ", Liters Delivered Daily: " + litersDeliveredDaily + ", Area: " + deliveryArea;
     }
+    @Override
+    public int hashCode() {
+        return 157;
+    }
 }
 

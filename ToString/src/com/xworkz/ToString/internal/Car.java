@@ -14,4 +14,8 @@ public class Car {
     public String toString(){
         return "color :"+color+" "+ "price :"+price+" "+"brand :"+brand;
     }
+    @Override
+    public int hashCode() {
+        return 114;
+    }
 }

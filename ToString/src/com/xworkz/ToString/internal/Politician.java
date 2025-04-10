@@ -14,5 +14,9 @@ public class Politician {
     public String toString() {
         return "Politician: " + name + ", Party: " + party + ", Years in Office: " + yearsInOffice;
     }
+    @Override
+    public int hashCode() {
+        return 174;
+    }
 }
 

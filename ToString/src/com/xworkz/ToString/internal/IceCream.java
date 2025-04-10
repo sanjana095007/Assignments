@@ -14,4 +14,8 @@ public class IceCream {
     public String toString() {
         return "IceCream: " + name + ", Location: " + location + ", Flavors: " + flavors;
     }
+    @Override
+    public int hashCode() {
+        return 147;
+    }
 }

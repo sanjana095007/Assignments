@@ -15,5 +15,9 @@ public class Painting {
     public String toString() {
         return "color :"+color+" "+ "title :"+title+" "+"year :"+year;
     }
+    @Override
+    public int hashCode() {
+        return 165;
+    }
 }
 

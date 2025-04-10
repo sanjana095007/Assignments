@@ -14,4 +14,8 @@ public class Delivery {
     public String toString() {
         return "DeliveryPerson: " + name + ", Area: " + area + ", Deliveries: " + deliveries;
     }
+    @Override
+    public int hashCode() {
+        return 124;
+    }
 }

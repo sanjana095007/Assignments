@@ -13,4 +13,8 @@ public class Beach {
     public String tostring(){
         return "name :"+name+" "+"location :"+location+" "+"state :"+state;
     }
+    @Override
+    public int hashCode() {
+        return 108;
+    }
 }

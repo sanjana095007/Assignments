@@ -14,5 +14,9 @@ public class Director {
     public String toString() {
         return "Director: " + name + ", Genre: " + genre + ", Films Directed: " + filmsDirected;
     }
+    @Override
+    public int hashCode() {
+        return 125;
+    }
 }
 

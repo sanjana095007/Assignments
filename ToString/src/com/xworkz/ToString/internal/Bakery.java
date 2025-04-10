@@ -14,5 +14,9 @@ public class Bakery {
     public String toString() {
         return "Baker: " + name + ", Bakery: " + bakery + ", Items Baked: " + itemsBaked;
     }
+    @Override
+    public int hashCode() {
+        return 105;
+    }
 }
 

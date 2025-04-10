@@ -14,4 +14,8 @@ public class SecurityGuard {
     public String toString() {
         return "Security Guard: " + name + ", Company: " + company + ", Shifts Completed: " + shiftsCompleted;
     }
+    @Override
+    public int hashCode() {
+        return 179;
+    }
 }

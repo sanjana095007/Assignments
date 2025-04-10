@@ -15,5 +15,9 @@ public class River {
     public String toString() {
         return "River: " + name + ", Length: " + length + " km, Origin: " + origin;
     }
+    @Override
+    public int hashCode() {
+        return 177;
+    }
 }
 

@@ -14,5 +14,9 @@ public class Place {
     public String toString() {
         return "Place: " + name + ", Country: " + country + ", Population: " + population;
     }
+    @Override
+    public int hashCode() {
+        return 170;
+    }
 }
 

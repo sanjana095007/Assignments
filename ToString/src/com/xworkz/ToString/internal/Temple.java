@@ -15,4 +15,8 @@ public class Temple {
     public String toString() {
         return "name: " + name + ", country: " + country + ", City: " + city;
     }
+    @Override
+    public int hashCode() {
+        return 188;
+    }
 }

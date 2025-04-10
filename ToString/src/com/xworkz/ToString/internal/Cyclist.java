@@ -14,5 +14,9 @@ public class Cyclist {
     public String toString() {
         return "Cyclist: " + name + ", Team: " + team + ", Races Won: " + racesWon;
     }
+    @Override
+    public int hashCode() {
+        return 122;
+    }
 }
 

@@ -14,5 +14,9 @@ public class Mountaineer {
     public String toString() {
         return "Mountaineer: " + name + ", Peaks Climbed: " + peaksClimbed + ", Experience: " + yearsOfExperience + " years";
     }
+    @Override
+    public int hashCode() {
+        return 159;
+    }
 }
 

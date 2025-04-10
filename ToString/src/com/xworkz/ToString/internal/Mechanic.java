@@ -14,4 +14,8 @@ public class Mechanic {
     public String toString() {
         return "Mechanic: " + name + ", Garage: " + garage + ", Vehicles Repaired: " + vehiclesRepaired;
     }
+    @Override
+    public int hashCode() {
+        return 156;
+    }
 }

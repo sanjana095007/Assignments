@@ -15,5 +15,9 @@ public class Camera {
     public String toString() {
         return "brand :"+brand+" "+ "megapixels :"+megapixels+" "+"price :"+price;
     }
+    @Override
+    public int hashCode() {
+        return 113;
+    }
 }
 

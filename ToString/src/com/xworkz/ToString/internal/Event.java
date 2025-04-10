@@ -14,4 +14,8 @@ public class Event {
     public String toString() {
         return "Event: " + Eventname + ", Location: " + location + ", Date: " + date;
     }
+    @Override
+    public int hashCode() {
+        return 130;
+    }
 }

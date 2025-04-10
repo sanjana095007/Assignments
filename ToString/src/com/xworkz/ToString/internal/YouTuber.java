@@ -14,5 +14,9 @@ public class YouTuber {
     public String toString() {
         return "YouTuber: " + channelName + ", Category: " + category + ", Subscribers: " + subscribers;
     }
+    @Override
+    public int hashCode() {
+        return 197;
+    }
 }
 

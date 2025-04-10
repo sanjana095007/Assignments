@@ -14,4 +14,8 @@ public class Watch {
     public String toString() {
         return "Watch brand: " + brand + ", Type: " + type + ", Price: " + price;
     }
+    @Override
+    public int hashCode() {
+        return 195;
+    }
 }

@@ -14,5 +14,9 @@ public class Journalist {
     public String toString() {
         return "Journalist: " + name + ", News Agency: " + newsAgency + ", Stories Covered: " + storiesCovered;
     }
+    @Override
+    public int hashCode() {
+        return 149;
+    }
 }
 

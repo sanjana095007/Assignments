@@ -14,4 +14,8 @@ public class Professor {
     public String toString() {
         return "Professor: " + name + ", Subject: " + subject + ", Publications: " + publications;
     }
+    @Override
+    public int hashCode() {
+        return 176;
+    }
 }

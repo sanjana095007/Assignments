@@ -15,5 +15,9 @@ public class Animal {
     public String toString() {
         return "Animal: name = " + name + ", height : " + height + ", Weight = " + weight + " kg";
     }
+    @Override
+    public int hashCode() {
+        return 102;
+    }
 }
 

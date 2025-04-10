@@ -14,4 +14,8 @@ public class Insect {
     public String toString() {
         return "Insect: " + name + ", Legs: " + legs + ", Harmful: " + isHarmful;
     }
+    @Override
+    public int hashCode() {
+        return 148;
+    }
 }

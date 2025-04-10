@@ -14,4 +14,8 @@ public class Bag {
     public String toString() {
         return "Bag - Brand: " + brand + ", Capacity: " + capacityInLiters + "L, Waterproof: " + isWaterproof;
     }
+    @Override
+    public int hashCode() {
+        return 104;
+    }
 }

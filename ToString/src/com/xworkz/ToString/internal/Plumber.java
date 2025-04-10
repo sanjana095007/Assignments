@@ -14,4 +14,8 @@ public class Plumber {
     public String toString() {
         return "Plumber: " + name + ", Experience: " + experienceYears + " years, Repairs Done: " + repairsDone;
     }
+    @Override
+    public int hashCode() {
+        return 172;
+    }
 }

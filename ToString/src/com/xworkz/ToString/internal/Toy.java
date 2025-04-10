@@ -14,4 +14,8 @@ public class Toy {
     public String toString() {
         return "Toy name: " + name + ", Category: " + category + ", Price: " + price;
     }
+    @Override
+    public int hashCode() {
+        return 189;
+    }
 }

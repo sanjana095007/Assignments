@@ -14,4 +14,8 @@ public class FashionDesigner {
     public String toString() {
         return "FashionDesigner: " + name + ", Brand: " + brand + ", Collections: " + collections;
     }
+    @Override
+    public int hashCode() {
+        return 132;
+    }
 }

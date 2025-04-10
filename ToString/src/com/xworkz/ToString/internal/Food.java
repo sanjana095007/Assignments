@@ -15,5 +15,9 @@ public class Food {
     public String toString() {
         return "name :"+name+" "+ "category :"+category+" "+"price :"+price;
     }
+    @Override
+    public int hashCode() {
+        return 138;
+    }
 }
 

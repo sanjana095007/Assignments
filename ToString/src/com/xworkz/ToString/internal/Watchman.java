@@ -14,4 +14,8 @@ public class Watchman {
     public String toString() {
         return "Watchman: " + name + ", Apartment: " + apartmentName + ", Shift Hours: " + hoursPerShift;
     }
+    @Override
+    public int hashCode() {
+        return 196;
+    }
 }

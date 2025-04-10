@@ -15,5 +15,9 @@ public class Course {
     public String toString() {
         return "Course:"+course+" "+"name :"+name+" "+ "credits:"+credits;
     }
+    @Override
+    public int hashCode() {
+        return 120;
+    }
 }
 

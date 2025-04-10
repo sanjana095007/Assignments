@@ -14,4 +14,8 @@ public class Judge {
     public String toString() {
         return "Judge: " + name + ", Court: " + courtName + ", Cases Judged: " + casesJudged;
     }
+    @Override
+    public int hashCode() {
+        return 150;
+    }
 }

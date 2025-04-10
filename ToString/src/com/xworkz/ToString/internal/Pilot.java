@@ -14,4 +14,8 @@ public class Pilot {
     public String toString() {
         return "Pilot: " + name + ", Airline: " + airline + ", Flying Hours: " + flyingHours;
     }
+    @Override
+    public int hashCode() {
+        return 169;
+    }
 }

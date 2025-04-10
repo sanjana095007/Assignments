@@ -14,4 +14,8 @@ public class Engineer {
     public String toString() {
         return "Engineer: " + name + ", Field: " + field + ", Projects Completed: " + projectsCompleted;
     }
+    @Override
+    public int hashCode() {
+        return 129;
+    }
 }

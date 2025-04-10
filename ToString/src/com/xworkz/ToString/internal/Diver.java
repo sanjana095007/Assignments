@@ -14,4 +14,8 @@ public class Diver {
     public String toString() {
         return "Diver: " + name + ", Depth: " + depth + "m, Certification: " + certification;
     }
+    @Override
+    public int hashCode() {
+        return 126;
+    }
 }

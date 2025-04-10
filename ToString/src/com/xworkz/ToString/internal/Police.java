@@ -14,4 +14,8 @@ public class Police {
     public String toString() {
         return "Police Officer: " + name + ", Department: " + department + ", Cases Solved: " + casesSolved;
     }
+    @Override
+    public int hashCode() {
+        return 173;
+    }
 }

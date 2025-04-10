@@ -15,5 +15,9 @@ public class Vehical{
     public String toString() {
         return "Vehical: Type : " + type + ", Speed = " + speed + " Fuel = " + fuelType;
     }
+    @Override
+    public int hashCode() {
+        return 193;
+    }
 }
 

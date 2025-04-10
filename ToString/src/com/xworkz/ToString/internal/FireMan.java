@@ -14,5 +14,9 @@ public class FireMan {
         public String toString() {
             return "Fireman: " + name + ", Station: " + fireStation + ", Emergencies Handled: " + emergenciesHandled;
         }
+    @Override
+    public int hashCode() {
+        return 134;
+    }
     }
 

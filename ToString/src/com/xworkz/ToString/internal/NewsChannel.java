@@ -14,4 +14,8 @@ public class NewsChannel {
     public String toString() {
         return "NewsChannel: " + name + ", Language: " + language + ", Rating: " + rating;
     }
+    @Override
+    public int hashCode() {
+        return 163;
+    }
 }

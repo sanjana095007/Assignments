@@ -14,4 +14,8 @@ public class Musician {
     public String toString() {
         return "Musician: " + name + ", Instrument: " + instrument + ", Albums Released: " + albumsReleased;
     }
+    @Override
+    public int hashCode() {
+        return 162;
+    }
 }

@@ -14,4 +14,8 @@ public class Flower {
     public String toString() {
         return "Flower: " + name + ", Color: " + color + ", Price: " + price;
     }
+    @Override
+    public int hashCode() {
+        return 137;
+    }
 }

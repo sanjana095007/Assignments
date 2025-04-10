@@ -14,5 +14,9 @@ public class Photographer {
     public String toString() {
         return "Photographer: " + name + ", Camera Brand: " + cameraBrand + ", Events Covered: " + eventsCovered;
     }
+    @Override
+    public int hashCode() {
+        return 168;
+    }
 }
 

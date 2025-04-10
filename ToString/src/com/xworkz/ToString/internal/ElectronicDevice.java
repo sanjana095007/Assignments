@@ -14,4 +14,8 @@ public class ElectronicDevice {
     public String toString() {
         return "type: " + type + ", Brand: " + brand + ", Cost: $" + cost;
     }
+    @Override
+    public int hashCode() {
+        return 128;
+    }
 }

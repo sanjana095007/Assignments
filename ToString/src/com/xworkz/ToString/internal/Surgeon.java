@@ -14,4 +14,8 @@ public class Surgeon {
     public String toString() {
         return "Surgeon: " + name + ", Specialization: " + specialization + ", Surgeries Performed: " + surgeriesPerformed;
     }
+    @Override
+    public int hashCode() {
+        return 183;
+    }
 }

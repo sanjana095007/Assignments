@@ -14,4 +14,8 @@ public class Tree {
     public String toString() {
         return "Tree: " + species + ", Height: " + heightInFeet + " Evergreen: " + isEvergreen;
     }
+    @Override
+    public int hashCode() {
+        return 192;
+    }
 }

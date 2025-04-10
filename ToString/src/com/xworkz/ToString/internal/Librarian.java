@@ -14,5 +14,9 @@ public class Librarian {
     public String toString() {
         return "Librarian: " + name + ", Library: " + library + ", Books Managed: " + booksManaged;
     }
+    @Override
+    public int hashCode() {
+        return 153;
+    }
 }
 

@@ -14,5 +14,9 @@ public class Bird {
     public String toString() {
         return "name: " + name + ", type: " + type + ", spicies: " + spicies;
     }
+    @Override
+    public int hashCode() {
+        return 110;
+    }
 }
 

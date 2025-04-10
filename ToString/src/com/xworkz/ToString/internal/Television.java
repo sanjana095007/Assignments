@@ -14,4 +14,8 @@ public class Television {
     public String toString() {
         return "Television - Brand: " + brand + ", Size: " + sizeInInches + " inch, Smart TV: " + isSmartTV;
     }
+    @Override
+    public int hashCode() {
+        return 187;
+    }
 }

@@ -14,5 +14,9 @@ public class Chef {
     public String toString() {
         return "Chef: " + name + ", hotelname: " + hotelname + ", Experience: " + yearsOfExperience + " years";
     }
+    @Override
+    public int hashCode() {
+        return 116;
+    }
 }
 

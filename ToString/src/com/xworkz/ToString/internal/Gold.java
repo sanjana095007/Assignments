@@ -12,7 +12,10 @@ public class Gold {
     }
 
     public String toString() {
-        return "Gold: " + purity + ", Weight: " + weight + "Price:" + price
-                ;
+        return "Gold: " + purity + ", Weight: " + weight + "Price:" + price;
+    }
+    @Override
+    public int hashCode() {
+        return 142;
     }
 }

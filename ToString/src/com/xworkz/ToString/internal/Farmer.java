@@ -14,4 +14,8 @@ public class Farmer {
     public String toString() {
         return "Farmer name: " + name + ", Crop: " + crop + ", Land: " + landSize + " acres";
     }
+    @Override
+    public int hashCode() {
+        return 131;
+    }
 }

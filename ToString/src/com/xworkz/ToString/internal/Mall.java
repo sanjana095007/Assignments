@@ -14,4 +14,8 @@ public class Mall {
     public String toString() {
         return "Mall: " + name + ", Location: " + location + ", Number of Shops: " + numberOfShops;
     }
+    @Override
+    public int hashCode() {
+        return 155;
+    }
 }

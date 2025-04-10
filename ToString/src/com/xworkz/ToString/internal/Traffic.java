@@ -14,4 +14,8 @@ public class Traffic {
     public String toString() {
         return "Traffic in " + city + ": Congestion Level " + congestionLevel + ", Avg Speed " + averageSpeed ;
     }
+    @Override
+    public int hashCode() {
+        return 190;
+    }
 }

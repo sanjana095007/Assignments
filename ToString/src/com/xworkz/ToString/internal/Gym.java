@@ -14,5 +14,9 @@ public class Gym {
     public String toString() {
         return "GymTrainer: " + name + ", trainer : " + gymtrainer + ", Clients: " + clients;
     }
+    @Override
+    public int hashCode() {
+        return 143;
+    }
 }
 

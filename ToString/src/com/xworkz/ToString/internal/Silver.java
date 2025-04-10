@@ -14,4 +14,8 @@ public class Silver {
     public String toString() {
         return "Silver: " + purity + ", Weight: " + weight + "Price per Gram:" + pricePerGram;
     }
+    @Override
+    public int hashCode() {
+        return 180;
+    }
 }

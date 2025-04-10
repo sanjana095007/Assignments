@@ -15,5 +15,9 @@ public class Festival {
     public String toString() {
         return "name :"+name+" "+ "country :"+country+" "+"month :"+month;
     }
+    @Override
+    public int hashCode() {
+        return 133;
+    }
 }
 

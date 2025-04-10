@@ -14,4 +14,8 @@ public class Waiter {
     public String toString() {
         return "Waiter: " + name + ", Restaurant: " + restaurant + ", Tables Served: " + tablesServed;
     }
+    @Override
+    public int hashCode() {
+        return 194;
+    }
 }

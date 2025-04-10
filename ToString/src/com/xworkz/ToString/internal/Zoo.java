@@ -14,5 +14,9 @@ public class Zoo {
     public String toString() {
         return "Zoo name: " + name + ", City: " + city + ", Animals: " + animals;
     }
+    @Override
+    public int hashCode() {
+        return 198;
+    }
 }
 

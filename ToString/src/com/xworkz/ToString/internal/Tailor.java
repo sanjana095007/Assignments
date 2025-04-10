@@ -14,5 +14,9 @@ public class Tailor {
     public String toString() {
         return "Tailor: " + name + ", Shop: " + shopName + ", Clothes Stitched: " + clothesStitched;
     }
+    @Override
+    public int hashCode() {
+        return 185;
+    }
 }
 

@@ -14,5 +14,9 @@ public class Dancer {
     public String toString() {
         return "Dancer: " + name + ", Dance Form: " + danceForm + ", Performances: " + performances;
     }
+    @Override
+    public int hashCode() {
+        return 123;
+    }
 }
 

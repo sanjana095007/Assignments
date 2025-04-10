@@ -14,4 +14,8 @@ public class Bottle {
     public String toString() {
         return "Bottle - Type: " + type + ", Capacity: " + capacity + " ml, Reusable: " + isReusable;
     }
+    @Override
+    public int hashCode() {
+        return 112;
+    }
 }

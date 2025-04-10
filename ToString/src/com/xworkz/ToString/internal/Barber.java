@@ -14,5 +14,9 @@ public class Barber {
     public String toString() {
         return "Barber: " + name + ", Experience: " + experience + " years, Shop: " + shopName;
     }
+    @Override
+    public int hashCode() {
+        return 107;
+    }
 }
 

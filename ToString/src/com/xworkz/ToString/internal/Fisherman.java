@@ -14,4 +14,8 @@ public class Fisherman {
     public String toString() {
         return "Fisherman: " + name + ", River: " + river + ", Fish Caught: " + fishCaught;
     }
+    @Override
+    public int hashCode() {
+        return 135;
+    }
 }

@@ -14,4 +14,8 @@ public class Platinum {
     public String toString() {
         return "Platinum: " + grade + ", Weight: " + weight + "Price per Gram:" + pricePerGram;
     }
+    @Override
+    public int hashCode() {
+        return 171;
+    }
 }

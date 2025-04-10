@@ -14,4 +14,8 @@ public class Garden {
     public String toString() {
         return "Gardener: " + name + ", Garden Type: " + gardenType + ", Plants Grown: " + plantsGrown;
     }
+    @Override
+    public int hashCode() {
+        return 141;
+    }
 }

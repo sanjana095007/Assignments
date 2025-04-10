@@ -13,6 +13,9 @@ public class SoftwareDeveloper {
 
     public String toString() {
         return "Developer: " + name + ", Language: " + language + ", Apps: " + appsDeveloped;
+    }@Override
+    public int hashCode() {
+        return 181;
     }
 }
 

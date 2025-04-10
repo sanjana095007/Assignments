@@ -13,4 +13,8 @@ public class MakeupArtist {
     public String toString() {
         return "Makeup Artist: " + name + ", Brand: " + brand + ", Clients Served: " + clientsServed;
     }
+    @Override
+    public int hashCode() {
+        return 154;
+    }
 }

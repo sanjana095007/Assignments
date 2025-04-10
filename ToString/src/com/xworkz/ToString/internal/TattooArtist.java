@@ -14,4 +14,8 @@ public class TattooArtist {
     public String toString() {
         return "TattooArtist: " + name + ", Studio: " + studio + ", Tattoos Done: " + tattoosDone;
     }
+    @Override
+    public int hashCode() {
+        return 186;
+    }
 }

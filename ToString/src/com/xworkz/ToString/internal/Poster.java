@@ -13,4 +13,8 @@ public class Poster {
     public String tostring(){
         return "name :"+name+" "+"size :"+size+" "+"color :"+color;
     }
+    @Override
+    public int hashCode() {
+        return 175;
+    }
 }

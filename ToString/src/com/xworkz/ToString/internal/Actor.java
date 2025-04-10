@@ -15,5 +15,9 @@ public class Actor {
     public String toString() {
         return "Actor name: " + name + ", Age: " + age + ", Films: " + filmCount;
     }
+    @Override
+    public int hashCode() {
+        return 100;
+    }
 }
 
