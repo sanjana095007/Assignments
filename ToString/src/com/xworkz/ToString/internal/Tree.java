@@ -12,6 +12,6 @@ public class Tree {
     }
 
     public String toString() {
-        return "Tree: " + species + ", Height: " + heightInFeet + " ft, Evergreen: " + isEvergreen;
+        return "Tree: " + species + ", Height: " + heightInFeet + " Evergreen: " + isEvergreen;
     }
 }

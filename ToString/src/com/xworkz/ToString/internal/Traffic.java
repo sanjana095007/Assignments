@@ -2,8 +2,8 @@ package com.xworkz.ToString.internal;
 
 public class Traffic {
     private String city;
-    private String congestionLevel; // scale 1 to 10
-    private int averageSpeed; // in km/h
+    private String congestionLevel;
+    private int averageSpeed;
 
     public Traffic(String city, String congestionLevel, int averageSpeed) {
         this.city = city;
@@ -12,6 +12,6 @@ public class Traffic {
     }
 
     public String toString() {
-        return "Traffic in " + city + ": Congestion Level " + congestionLevel + ", Avg Speed " + averageSpeed + " km/h";
+        return "Traffic in " + city + ": Congestion Level " + congestionLevel + ", Avg Speed " + averageSpeed ;
     }
 }

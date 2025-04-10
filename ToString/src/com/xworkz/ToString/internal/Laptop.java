@@ -5,7 +5,7 @@ public class Laptop {
     private int  price;
     private int ramGB;
 
-    public Laptop(String brand, String processor, int ramGB) {
+    public Laptop(String brand, int price, int ramGB) {
         this.brand = brand;
         this.price = price;
         this.ramGB = ramGB;

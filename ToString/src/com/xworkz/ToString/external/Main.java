@@ -22,7 +22,6 @@ public class Main {
         Bakery bakery = new Bakery("KantiSweet", "Pastries", 50);
         System.out.println("The Bakery details: " + bakery);
         System.out.println("===========================================================================================");
-
         BankAccount bankAccount = new BankAccount("Amit Sharma", 1234567, 150000);
         System.out.println("The BankAccount details: " + bankAccount);
         System.out.println("===========================================================================================");
@@ -158,7 +157,7 @@ public class Main {
         Judge judge = new Judge("Rao",60, "HighCourt");
         System.out.println("The Judge details: " + judge);
         System.out.println("===========================================================================================");
-        Laptop laptop = new Laptop("Lenovo", "ThinkPad", 16);
+        Laptop laptop = new Laptop("Lenovo", 60000, 16);
         System.out.println("The Laptop details: " + laptop);
         System.out.println("===========================================================================================");
         Lawyer lawyer = new Lawyer("Arjun", "Criminal", 10);

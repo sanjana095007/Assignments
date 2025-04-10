@@ -13,7 +13,7 @@ public class Vehical{
 
     @Override
     public String toString() {
-        return "Vehical: Type : " + type + ", Speed = " + speed + " km/h, Fuel = " + fuelType;
+        return "Vehical: Type : " + type + ", Speed = " + speed + " Fuel = " + fuelType;
     }
 }
 

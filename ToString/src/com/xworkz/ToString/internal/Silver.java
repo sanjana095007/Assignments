@@ -2,7 +2,7 @@ package com.xworkz.ToString.internal;
 
 public class Silver {
     private String purity;
-    private double weight; // in grams
+    private double weight;
     private double pricePerGram;
 
     public Silver(String purity, double weight, double pricePerGram) {
@@ -12,6 +12,6 @@ public class Silver {
     }
 
     public String toString() {
-        return "Silver: " + purity + ", Weight: " + weight + "g, Price per Gram: ₹" + pricePerGram;
+        return "Silver: " + purity + ", Weight: " + weight + "Price per Gram:" + pricePerGram;
     }
 }
