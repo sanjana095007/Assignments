@@ -19,5 +19,22 @@ public class Camera {
     public int hashCode() {
         return 113;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Camera) {
+                System.out.println("Reference of Camera will be compared");
+                Camera camera = this;
+                Camera camera1 = (Camera) obj;
+                if (camera.brand.equals(camera1.brand) && camera.megapixels == camera1.megapixels && camera.price == camera1.price) {
+                    System.out.println("Both cameras are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

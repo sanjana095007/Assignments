@@ -18,5 +18,22 @@ public class Librarian {
     public int hashCode() {
         return 153;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Librarian) {
+                System.out.println("Reference of Librarian will be compared");
+                Librarian librarian = this;
+                Librarian librarian1 = (Librarian) obj;
+                if (librarian.name.equals(librarian1.name) && librarian.library.equals(librarian1.library) ) {
+                    System.out.println("Both librarians are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

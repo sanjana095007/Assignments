@@ -18,5 +18,22 @@ public class YouTuber {
     public int hashCode() {
         return 197;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof YouTuber) {
+                System.out.println("Reference of YouTuber will be compared");
+                YouTuber youTuber = this;
+                YouTuber youTuber1 = (YouTuber) obj;
+                if (youTuber.channelName.equals(youTuber1.channelName) ) {
+                    System.out.println("Both YouTubers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

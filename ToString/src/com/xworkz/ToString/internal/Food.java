@@ -19,5 +19,22 @@ public class Food {
     public int hashCode() {
         return 138;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Food) {
+                System.out.println("Reference of Food will be compared");
+                Food food = this;
+                Food food1 = (Food) obj;
+                if (food.name.equals(food1.name) && food.category.equals(food1.category) && food.price == food1.price) {
+                    System.out.println("Both foods are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

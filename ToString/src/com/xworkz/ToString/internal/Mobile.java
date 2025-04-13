@@ -19,5 +19,22 @@ public class Mobile {
     public int hashCode() {
         return 158;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Mobile) {
+                System.out.println("Reference of Mobile will be compared");
+                Mobile mobile = this;
+                Mobile mobile1 = (Mobile) obj;
+                if (mobile.brand.equals(mobile1.brand) && mobile.model.equals(mobile1.model) ) {
+                    System.out.println("Both mobiles are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

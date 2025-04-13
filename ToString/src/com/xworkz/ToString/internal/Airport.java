@@ -19,5 +19,24 @@ public class Airport {
     public int hashCode() {
         return 101;
     }
+    @Override
+    public boolean equals(Object obj)
+    {
+        if(obj!=null){
+            System.out.println("null reference");
+            if(obj instanceof  Airport){
+                System.out.println("reference of Airport ,will be compared");
+                Airport airport=this;
+                Airport airport1=(Airport)obj;
+                if(airport.name.equals(airport1.name) && airport.city.equals(airport1.city)  && airport.terminals==airport1.terminals){
+                    System.out.println("both are same");
+                    return true;
+                }
+
+            }
+        }
+
+        return false;
+    }
 }
 

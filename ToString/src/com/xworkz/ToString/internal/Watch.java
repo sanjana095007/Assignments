@@ -18,4 +18,21 @@ public class Watch {
     public int hashCode() {
         return 195;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Watch) {
+                System.out.println("Reference of Watch will be compared");
+                Watch Watch = this;
+                Watch Watch1 = (Watch) obj;
+                if (Watch.brand.equals(Watch1.brand)) {
+                    System.out.println("Both watches are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

@@ -18,4 +18,21 @@ public class Car {
     public int hashCode() {
         return 114;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Car) {
+                System.out.println("Reference of Car will be compared");
+                Car car = this;
+                Car car1 = (Car) obj;
+                if (car.color.equals(car1.color) && car.price == car1.price && car.brand.equals(car1.brand)) {
+                    System.out.println("Both cars are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

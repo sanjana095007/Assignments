@@ -19,5 +19,21 @@ public class Course {
     public int hashCode() {
         return 120;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Course) {
+                System.out.println("Reference of Course will be compared");
+                Course course = this;
+                Course course1 = (Course) obj;
+                if (course.name.equals(course1.name) && course.name.equals(course1.name) && course.credits == course1.credits) {
+                    System.out.println("Both courses are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

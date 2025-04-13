@@ -18,5 +18,22 @@ public class Zoo {
     public int hashCode() {
         return 198;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Zoo) {
+                System.out.println("Reference of Zoo will be compared");
+                Zoo zoo1 = this;
+                Zoo zoo2 = (Zoo) obj;
+                if (zoo1.name.equals(zoo2.name)) {
+                    System.out.println("Both zoos are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

@@ -18,4 +18,21 @@ public class SecurityGuard {
     public int hashCode() {
         return 179;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof SecurityGuard) {
+                System.out.println("Reference of SecurityGuard will be compared");
+                SecurityGuard s1 = this;
+                SecurityGuard s2 = (SecurityGuard) obj;
+                if (s1.name.equals(s2.name)) {
+                    System.out.println("Both security guards are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

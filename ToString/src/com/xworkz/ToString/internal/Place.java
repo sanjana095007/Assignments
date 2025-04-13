@@ -18,5 +18,22 @@ public class Place {
     public int hashCode() {
         return 170;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Place) {
+                System.out.println("Reference of Place will be compared");
+                Place place = this;
+                Place place1 = (Place) obj;
+                if (place.name.equals(place1.name)) {
+                    System.out.println("Both places are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

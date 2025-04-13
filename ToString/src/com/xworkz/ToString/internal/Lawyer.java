@@ -18,5 +18,22 @@ public class Lawyer {
     public int hashCode() {
         return 152;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Lawyer) {
+                System.out.println("Reference of Lawyer will be compared");
+                Lawyer lawyer = this;
+                Lawyer lawyer1 = (Lawyer) obj;
+                if (lawyer.name.equals(lawyer1.name) && lawyer.court.equals(lawyer1.court) ) {
+                    System.out.println("Both lawyers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

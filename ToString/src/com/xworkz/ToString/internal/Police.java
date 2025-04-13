@@ -18,4 +18,21 @@ public class Police {
     public int hashCode() {
         return 173;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Police) {
+                System.out.println("Reference of Police will be compared");
+                Police police = this;
+                Police police1 = (Police) obj;
+                if (police.name.equals(police1.name)) {
+                    System.out.println("Both police officers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

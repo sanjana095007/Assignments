@@ -17,5 +17,22 @@ public class SoftwareDeveloper {
     public int hashCode() {
         return 181;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof SoftwareDeveloper) {
+                System.out.println("Reference of SoftwareDeveloper will be compared");
+                SoftwareDeveloper developer = this;
+                SoftwareDeveloper developer1 = (SoftwareDeveloper) obj;
+                if (developer.name.equals(developer1.name)) {
+                    System.out.println("Both software developers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

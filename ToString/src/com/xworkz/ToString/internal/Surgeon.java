@@ -18,4 +18,22 @@ public class Surgeon {
     public int hashCode() {
         return 183;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Surgeon) {
+                System.out.println("Reference of Surgeon will be compared");
+                Surgeon surgeon = this;
+                Surgeon surgeon1 = (Surgeon) obj;
+                if (surgeon.name.equals(surgeon1.name)) {
+                    System.out.println("Both surgeons are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }

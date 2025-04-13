@@ -19,5 +19,22 @@ public class Painting {
     public int hashCode() {
         return 165;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Painting) {
+                System.out.println("Reference of Painting will be compared");
+                Painting painting = this;
+                Painting painting1 = (Painting) obj;
+                if (painting.title.equals(painting1.title)  && painting.year == painting1.year) {
+                    System.out.println("Both paintings are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

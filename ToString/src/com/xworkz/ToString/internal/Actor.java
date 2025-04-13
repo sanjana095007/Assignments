@@ -19,5 +19,24 @@ public class Actor {
     public int hashCode() {
         return 100;
     }
+    @Override
+    public boolean equals(Object obj)
+    {
+        if(obj!=null){
+            System.out.println("null reference");
+            if(obj instanceof  Actor){
+                System.out.println("reference of Actor ,will be compared");
+                Actor actor=this;
+                Actor actor1=(Actor)obj;
+                if(actor.name.equals(actor.name) && actor.age==actor1.age && actor.filmCount==actor1.filmCount){
+                    System.out.println("both are same");
+                    return true;
+                }
+
+            }
+        }
+
+        return false;
+    }
 }
 

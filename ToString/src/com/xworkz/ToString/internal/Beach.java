@@ -17,4 +17,21 @@ public class Beach {
     public int hashCode() {
         return 108;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Beach) {
+                System.out.println("Reference of Beach will be compared");
+                Beach beach = this;
+                Beach beach1 = (Beach) obj;
+                if (beach.name.equals(beach1.name) && beach.location.equals(beach1.location) && beach.state.equals(beach1.state)) {
+                    System.out.println("Both beaches are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

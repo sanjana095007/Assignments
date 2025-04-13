@@ -19,5 +19,22 @@ public class Vehical{
     public int hashCode() {
         return 193;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Vehical) {
+                System.out.println("Reference of Vehical will be compared");
+                Vehical vehical = this;
+                Vehical vehical1 = (Vehical) obj;
+                if (vehical.type.equals(vehical1.type)) {
+                    System.out.println("Both vehicles are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

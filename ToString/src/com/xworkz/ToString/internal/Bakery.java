@@ -18,5 +18,23 @@ public class Bakery {
     public int hashCode() {
         return 105;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Bakery) {
+                System.out.println("Reference of Bakery will be compared");
+                Bakery bakery = this;
+                Bakery bakery1 = (Bakery) obj;
+                if (bakery.name.equals(bakery1.name) && bakery.bakery.equals(bakery1.bakery) && bakery.itemsBaked== bakery1.itemsBaked) {
+                    System.out.println("Both bakeries are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }
 

@@ -19,5 +19,22 @@ public class Train {
     public int hashCode() {
         return 191;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Train) {
+                System.out.println("Reference of Train will be compared");
+                Train train = this;
+                Train train1 = (Train) obj;
+                if (train.name.equals(train1.name)) {
+                    System.out.println("Both trains are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

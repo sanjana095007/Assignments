@@ -18,4 +18,21 @@ public class Pilot {
     public int hashCode() {
         return 169;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Pilot) {
+                System.out.println("Reference of Pilot will be compared");
+                Pilot pilot = this;
+                Pilot pilot1 = (Pilot) obj;
+                if (pilot.name.equals(pilot1.name) && pilot.airline.equals(pilot1.airline)) {
+                    System.out.println("Both pilots are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

@@ -18,4 +18,21 @@ public class Farmer {
     public int hashCode() {
         return 131;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Farmer) {
+                System.out.println("Reference of Farmer will be compared");
+                Farmer farmer = this;
+                Farmer farmer1 = (Farmer) obj;
+                if (farmer.name.equals(farmer1.name) && farmer.crop.equals(farmer1.crop) && farmer.landSize == farmer1.landSize) {
+                    System.out.println("Both farmers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

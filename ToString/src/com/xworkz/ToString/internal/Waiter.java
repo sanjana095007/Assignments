@@ -18,4 +18,21 @@ public class Waiter {
     public int hashCode() {
         return 194;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Waiter) {
+                System.out.println("Reference of Waiter will be compared");
+                Waiter Waiter = this;
+                Waiter Waiter1 = (Waiter) obj;
+                if (Waiter.name.equals(Waiter1.name)) {
+                    System.out.println("Both waiters are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

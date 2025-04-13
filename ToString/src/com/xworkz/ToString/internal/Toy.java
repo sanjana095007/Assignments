@@ -18,4 +18,21 @@ public class Toy {
     public int hashCode() {
         return 189;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Toy) {
+                System.out.println("Reference of Toy will be compared");
+                Toy toy = this;
+                Toy toy1 = (Toy) obj;
+                if (toy.name.equals(toy1.name)) {
+                    System.out.println("Both toys are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

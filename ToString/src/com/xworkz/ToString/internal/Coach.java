@@ -18,4 +18,21 @@ public class Coach {
     public int hashCode() {
         return 118;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Coach) {
+                System.out.println("Reference of Coach will be compared");
+                Coach coach = this;
+                Coach coach1 = (Coach) obj;
+                if (coach.name.equals(coach1.name) && coach.sport.equals(coach1.sport) && coach.championships == coach1.championships) {
+                    System.out.println("Both coaches are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

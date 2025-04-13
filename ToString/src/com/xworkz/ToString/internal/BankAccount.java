@@ -19,4 +19,21 @@ public class BankAccount {
     public int hashCode() {
         return 106;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof BankAccount) {
+                System.out.println("Reference of BankAccount will be compared");
+                BankAccount bankAccount = this;
+                BankAccount bankAccount1 = (BankAccount) obj;
+                if (bankAccount.accountNumber == bankAccount1.accountNumber && bankAccount.balance == bankAccount1.balance && bankAccount.accountHolder.equals(bankAccount1.accountHolder)) {
+                    System.out.println("Both bank accounts are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

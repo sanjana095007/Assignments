@@ -18,5 +18,22 @@ public class Nurse {
     public int hashCode() {
         return 164;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Nurse) {
+                System.out.println("Reference of Nurse will be compared");
+                Nurse nurse = this;
+                Nurse nurse1 = (Nurse) obj;
+                if (nurse.name.equals(nurse1.name) && nurse.department.equals(nurse1.department) ) {
+                    System.out.println("Both nurses are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

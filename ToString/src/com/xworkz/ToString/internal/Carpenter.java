@@ -18,4 +18,21 @@ public class Carpenter {
     public int hashCode() {
         return 115;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Carpenter) {
+                System.out.println("Reference of Carpenter will be compared");
+                Carpenter carpenter = this;
+                Carpenter carpenter1 = (Carpenter) obj;
+                if (carpenter.name.equals(carpenter1.name) && carpenter.experience == carpenter1.experience && carpenter.specialty.equals(carpenter1.specialty)) {
+                    System.out.println("Both carpenters are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

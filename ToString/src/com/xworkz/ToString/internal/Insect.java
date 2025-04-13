@@ -18,4 +18,21 @@ public class Insect {
     public int hashCode() {
         return 148;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Insect) {
+                System.out.println("Reference of Insect will be compared");
+                Insect insect = this;
+                Insect insect1 = (Insect) obj;
+                if (insect.name.equals(insect1.name) && insect.legs == insect1.legs) {
+                    System.out.println("Both insects are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

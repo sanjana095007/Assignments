@@ -18,5 +18,22 @@ public class Cricketer {
     public int hashCode() {
         return 121;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Cricketer) {
+                System.out.println("Reference of Cricketer will be compared");
+                Cricketer cricketer = this;
+                Cricketer cricketer1 = (Cricketer) obj;
+                if (cricketer.name.equals(cricketer1.name) && cricketer.role.equals(cricketer1.role) && cricketer.matchesPlayed == cricketer1.matchesPlayed) {
+                    System.out.println("Both cricketers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

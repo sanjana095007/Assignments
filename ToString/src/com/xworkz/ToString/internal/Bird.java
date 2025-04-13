@@ -18,5 +18,22 @@ public class Bird {
     public int hashCode() {
         return 110;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Bird) {
+                System.out.println("Reference of Bird will be compared");
+                Bird bird = this;
+                Bird bird1 = (Bird) obj;
+                if (bird.name.equals(bird1.name) && bird.type.equals(bird1.type) && bird.spicies.equals(bird1.spicies)) {
+                    System.out.println("Both birds are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

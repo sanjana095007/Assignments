@@ -19,5 +19,23 @@ public class Hotel {
     public int hashCode() {
         return 145;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Hotel) {
+                System.out.println("Reference of Hotel will be compared");
+                Hotel hotel = this;
+                Hotel hotel1 = (Hotel) obj;
+                if (hotel.name.equals(hotel1.name) && hotel.cuisine == hotel1.cuisine) {
+                    System.out.println("Both hotels are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }
 

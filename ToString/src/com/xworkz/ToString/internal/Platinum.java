@@ -18,4 +18,21 @@ public class Platinum {
     public int hashCode() {
         return 171;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Platinum) {
+                System.out.println("Reference of Platinum will be compared");
+                Platinum p1 = this;
+                Platinum p2 = (Platinum) obj;
+                if (p1.grade.equals(p2.grade)) {
+                    System.out.println("Both platinum items are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

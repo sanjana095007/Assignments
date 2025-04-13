@@ -18,4 +18,21 @@ public class Professor {
     public int hashCode() {
         return 176;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Professor) {
+                System.out.println("Reference of Professor will be compared");
+                Professor professor = this;
+                Professor professor1 = (Professor) obj;
+                if (professor.name.equals(professor1.name)) {
+                    System.out.println("Both professors are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

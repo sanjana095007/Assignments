@@ -18,4 +18,21 @@ public class ElectronicDevice {
     public int hashCode() {
         return 128;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof ElectronicDevice) {
+                System.out.println("Reference of ElectronicDevice will be compared");
+                ElectronicDevice device = this;
+                ElectronicDevice device1 = (ElectronicDevice) obj;
+                if (device.type.equals(device1.type) && device.brand.equals(device1.brand) && device.cost == device1.cost) {
+                    System.out.println("Both electronic devices are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

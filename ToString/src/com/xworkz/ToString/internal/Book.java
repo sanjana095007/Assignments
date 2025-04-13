@@ -19,4 +19,21 @@ public class Book {
     public int hashCode() {
         return 111;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Book) {
+                System.out.println("Reference of Book will be compared");
+                Book book = this;
+                Book book1 = (Book) obj;
+                if (book.title.equals(book1.title) && book.author.equals(book1.author) && book.pages == book1.pages) {
+                    System.out.println("Both books are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

@@ -18,5 +18,22 @@ public class Photographer {
     public int hashCode() {
         return 168;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Photographer) {
+                System.out.println("Reference of Photographer will be compared");
+                Photographer photographer = this;
+                Photographer photographer1 = (Photographer) obj;
+                if (photographer.name.equals(photographer1.name) && photographer.cameraBrand.equals(photographer1.cameraBrand)) {
+                    System.out.println("Both photographers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 

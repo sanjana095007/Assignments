@@ -19,5 +19,21 @@ public class Flight {
     public int hashCode() {
         return 136;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Flight) {
+                System.out.println("Reference of Flight will be compared");
+                Flight flight = this;
+                Flight flight1 = (Flight) obj;
+                if (flight.airline.equals(flight1.airline) && flight.flightNumber == flight1.flightNumber && flight.destination.equals(flight1.destination)) {
+                    System.out.println("Both flights are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

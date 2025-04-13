@@ -18,4 +18,21 @@ public class FashionDesigner {
     public int hashCode() {
         return 132;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof FashionDesigner) {
+                System.out.println("Reference of FashionDesigner will be compared");
+                FashionDesigner designer = this;
+                FashionDesigner designer1 = (FashionDesigner) obj;
+                if (designer.name.equals(designer1.name) && designer.brand.equals(designer1.brand) && designer.collections == designer1.collections) {
+                    System.out.println("Both fashion designers are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

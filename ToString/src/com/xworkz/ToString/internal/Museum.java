@@ -18,4 +18,21 @@ public class Museum {
     public int hashCode() {
         return 161;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Museum) {
+                System.out.println("Reference of Museum will be compared");
+                Museum museum = this;
+                Museum museum1 = (Museum) obj;
+                if (museum.name.equals(museum1.name) && museum.location.equals(museum1.location) ) {
+                    System.out.println("Both museums are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

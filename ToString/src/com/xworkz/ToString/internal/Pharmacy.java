@@ -18,4 +18,22 @@ public class Pharmacy {
     public int hashCode() {
         return 167;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Pharmacy) {
+                System.out.println("Reference of Pharmacy will be compared");
+                Pharmacy pharmacy = this;
+                Pharmacy pharmacy1 = (Pharmacy) obj;
+                if (pharmacy.name.equals(pharmacy1.name) && pharmacy.address.equals(pharmacy1.address)) {
+                    System.out.println("Both pharmacies are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }

@@ -18,4 +18,20 @@ public class Furniture {
     public int hashCode() {
         return 139;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Furniture) {
+                System.out.println("Reference of Furniture will be compared");
+                Furniture furniture = this;
+                Furniture furniture1 = (Furniture) obj;
+                if (furniture.type.equals(furniture1.type) && furniture.material.equals(furniture1.material) && furniture.cost == furniture1.cost) {
+                    System.out.println("Both furnitures are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

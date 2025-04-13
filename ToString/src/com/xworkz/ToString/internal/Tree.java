@@ -18,4 +18,22 @@ public class Tree {
     public int hashCode() {
         return 192;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Tree) {
+                System.out.println("Reference of Tree will be compared");
+                Tree tree = this;
+                Tree tree1 = (Tree) obj;
+                if (tree.species.equals(tree1.species)) {
+                    System.out.println("Both trees are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }

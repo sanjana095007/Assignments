@@ -18,5 +18,22 @@ public class Journalist {
     public int hashCode() {
         return 149;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Checking for null reference");
+            if (obj instanceof Journalist) {
+                System.out.println("Reference of Journalist will be compared");
+                Journalist journalist = this;
+                Journalist journalist1 = (Journalist) obj;
+                if (journalist.name.equals(journalist1.name) && journalist.newsAgency.equals(journalist1.newsAgency) ) {
+                    System.out.println("Both journalists are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }
 
