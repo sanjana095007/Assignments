@@ -1,6 +1,4 @@
 package com.xworkz.inhert.runner;
-
-
 import com.xworkz.inhert.Hierarchical.*;
 import com.xworkz.inhert.Muti.S24Ultra;
 import com.xworkz.inhert.internal.TeslaModel;
