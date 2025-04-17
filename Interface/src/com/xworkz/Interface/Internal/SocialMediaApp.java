@@ -15,4 +15,9 @@ public class SocialMediaApp implements MobileApp{
     public void closeApp() {
         System.out.println("running the close App method");
     }
+
+    @Override
+    public void Hang() {
+        System.out.println("running the Hang method");
+    }
 }

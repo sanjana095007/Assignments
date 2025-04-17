@@ -15,4 +15,9 @@ public class Kitchen implements Microwave{
     public void cook() {
         System.out.println("running the cook method");
     }
+
+    @Override
+    public void Ready() {
+        System.out.println("running the Ready method");
+    }
 }

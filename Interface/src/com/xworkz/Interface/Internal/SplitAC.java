@@ -15,4 +15,9 @@ public class SplitAC implements AC{
     public void swing() {
         System.out.println("running the swing method");
     }
+
+    @Override
+    public void brand() {
+        System.out.println("running the brand method");
+    }
 }

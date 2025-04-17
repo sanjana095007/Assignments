@@ -15,4 +15,9 @@ public class Building implements Elevator{
     public void openDoor() {
         System.out.println("running the open Door method");
     }
+
+    @Override
+    public void displayCapacity() {
+        System.out.println("running the displayCapacity method");
+    }
 }

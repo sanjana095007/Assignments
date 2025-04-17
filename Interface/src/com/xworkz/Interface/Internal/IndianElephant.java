@@ -15,4 +15,9 @@ public class IndianElephant implements Elephant{
     public void sprayWater() {
         System.out.println("running the spray Water method");
     }
+
+    @Override
+    public void displaySize() {
+        System.out.println("running the displaySize method");
+    }
 }

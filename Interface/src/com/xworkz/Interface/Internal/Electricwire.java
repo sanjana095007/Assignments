@@ -15,4 +15,9 @@ public class Electricwire implements  Wire{
     public void insulate() {
         System.out.println("running the insulate method");
     }
+
+    @Override
+    public void Length() {
+        System.out.println("running the Length method");
+    }
 }

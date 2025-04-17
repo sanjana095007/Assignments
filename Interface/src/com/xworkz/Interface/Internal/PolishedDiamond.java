@@ -15,4 +15,9 @@ public class PolishedDiamond implements Diamond {
     public void polish() {
         System.out.println("running the polish method");
     }
+
+    @Override
+    public void displayQuality() {
+        System.out.println("running the Open method");
+    }
 }

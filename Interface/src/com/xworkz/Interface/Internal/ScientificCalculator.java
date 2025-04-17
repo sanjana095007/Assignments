@@ -15,4 +15,9 @@ public class ScientificCalculator implements Calculator{
     public void multiply() {
         System.out.println("running the multiply method");
     }
+
+    @Override
+    public void divide() {
+        System.out.println("running the divide method");
+    }
 }

@@ -15,4 +15,9 @@ public class Rupay implements DebitCard{
     public void checkBalance() {
         System.out.println("running the check Balance method");
     }
+
+    @Override
+    public void Transaction() {
+        System.out.println("running the Transaction method");
+    }
 }

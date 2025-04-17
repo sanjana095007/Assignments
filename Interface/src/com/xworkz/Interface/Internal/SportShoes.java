@@ -15,4 +15,9 @@ public class SportShoes implements Shoes{
     public void polish() {
         System.out.println("running the polish method");
     }
+
+    @Override
+    public void Comfort() {
+        System.out.println("running the Comfort method");
+    }
 }

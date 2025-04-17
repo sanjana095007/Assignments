@@ -15,4 +15,9 @@ public class MountainBicycle implements Bicycle{
     public void ringBell() {
         System.out.println("running the ringBell method");
     }
+
+    @Override
+    public void typeOfBicycle() {
+        System.out.println("running the typeOfBicycle method");
+    }
 }

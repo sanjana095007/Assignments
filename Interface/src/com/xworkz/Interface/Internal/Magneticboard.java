@@ -15,4 +15,9 @@ public class Magneticboard implements Whiteboard{
     public void clean() {
         System.out.println("running the clean method");
     }
+
+    @Override
+    public void display() {
+        System.out.println("running the display method");
+    }
 }

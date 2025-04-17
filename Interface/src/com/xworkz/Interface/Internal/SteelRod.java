@@ -15,4 +15,9 @@ public class SteelRod implements Steel {
     public void shape() {
         System.out.println("running the shape method");
     }
+
+    @Override
+    public void recycle() {
+        System.out.println("running the recycle method");
+    }
 }

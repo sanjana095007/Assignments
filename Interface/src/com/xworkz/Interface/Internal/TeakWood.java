@@ -15,4 +15,9 @@ public class TeakWood implements Wood{
     public void burn() {
         System.out.println("running the burn method");
     }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("running the displayInfo method");
+    }
 }

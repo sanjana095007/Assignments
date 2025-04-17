@@ -15,4 +15,10 @@ public class CeilingFan implements Fan {
     public void adjustSpeed() {
         System.out.println("running the adjustSpeed method");
     }
+
+    @Override
+    public void showType() {
+        System.out.println("running the showType method");
+
+    }
 }

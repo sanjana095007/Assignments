@@ -15,4 +15,10 @@ public class CeilingFanRemote implements FanRemote {
     public void changeSpeed() {
         System.out.println("running the change Speed method");
     }
+
+    @Override
+    public void showRemoteType() {
+        System.out.println("running the showRemoteType method");
+
+    }
 }

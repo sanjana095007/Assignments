@@ -15,4 +15,9 @@ public class AndroidMobile implements Mobile {
     public void browseInternet() {
         System.out.println("running the browse method");
     }
+
+    @Override
+    public void Charge() {
+        System.out.println("running the Charge method");
+    }
 }

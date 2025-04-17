@@ -15,4 +15,9 @@ public class Parrot implements Bird{
     public void layEggs() {
         System.out.println("running the lay Eggs method");
     }
+
+    @Override
+    public void habitat() {
+        System.out.println("running the Open method");
+    }
 }

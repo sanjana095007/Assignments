@@ -17,4 +17,9 @@ public class DiningTable implements Table {
     public void fold() {
         System.out.println("running the fold method");
     }
+
+    @Override
+    public void describe() {
+        System.out.println("running the describe method");
+    }
 }

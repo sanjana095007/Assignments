@@ -15,4 +15,10 @@ public class CityTrafficSignal implements TrafficSignal{
     public void turnYellow() {
         System.out.println("running the turn Yellow method");
     }
+
+    @Override
+    public void Traffic() {
+        System.out.println("running the Traffic method");
+
+    }
 }

@@ -15,4 +15,9 @@ public class ElectricOven implements Oven{
     public void preheat() {
         System.out.println("running the preheat method");
     }
+
+    @Override
+    public void Boil() {
+        System.out.println("running the Boil method");
+    }
 }

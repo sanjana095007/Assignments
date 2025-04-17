@@ -15,4 +15,9 @@ public class Automatic implements WashingMachine{
     public void spin() {
         System.out.println("running the spin method");
     }
+
+    @Override
+    public void speed() {
+        System.out.println("running the speed method");
+    }
 }

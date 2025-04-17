@@ -15,4 +15,9 @@ public class PlasticBottle implements Plastic{
     public void melt() {
         System.out.println("running the melt method");
     }
+
+    @Override
+    public void Quality() {
+        System.out.println("running the Quality method");
+    }
 }

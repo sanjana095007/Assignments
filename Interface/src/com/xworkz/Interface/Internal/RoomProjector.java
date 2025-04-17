@@ -15,4 +15,9 @@ public class RoomProjector implements Projector{
     public void focus() {
         System.out.println("running the focus method");
     }
+
+    @Override
+    public void Lamp() {
+        System.out.println("running the Lamp method");
+    }
 }

@@ -15,4 +15,9 @@ public class DigitalSmartLock implements SmartLock{
     public void breakin() {
         System.out.println("running the breakin method");
     }
+
+    @Override
+    public void resetSecurity() {
+        System.out.println("running the resetSecurity method");
+    }
 }

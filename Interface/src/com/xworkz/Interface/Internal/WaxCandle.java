@@ -15,4 +15,9 @@ public class WaxCandle implements Candle {
     public void extinguish() {
         System.out.println("running the extinguish method");
     }
+
+    @Override
+    public void smell() {
+        System.out.println("running the smell method");
+    }
 }

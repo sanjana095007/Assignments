@@ -15,4 +15,9 @@ public class EspressoMachine implements CoffeeMachine {
     public void clean() {
         System.out.println("running the pour method");
     }
+
+    @Override
+    public void WaterLevel() {
+        System.out.println("running the WaterLevel method");
+    }
 }

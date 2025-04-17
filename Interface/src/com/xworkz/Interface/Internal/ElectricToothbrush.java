@@ -15,4 +15,9 @@ public class ElectricToothbrush implements Toothbrush{
     public void dry() {
         System.out.println("running the dry method");
     }
+
+    @Override
+    public void displayStatus() {
+        System.out.println("running the displayStatus method");
+    }
 }

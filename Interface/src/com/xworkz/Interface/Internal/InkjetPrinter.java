@@ -15,4 +15,9 @@ public class InkjetPrinter implements Printer{
     public void copy() {
         System.out.println("running the copy method");
     }
+
+    @Override
+    public void InkLevel() {
+        System.out.println("running the InkLevel method");
+    }
 }

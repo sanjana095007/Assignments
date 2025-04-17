@@ -16,4 +16,9 @@ public class Library implements Book{
     public void close() {
         System.out.println("running the close method");
     }
+
+    @Override
+    public void bookmark() {
+        System.out.println("running the bookmark method");
+    }
 }

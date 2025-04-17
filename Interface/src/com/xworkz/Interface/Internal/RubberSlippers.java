@@ -15,4 +15,9 @@ public class RubberSlippers implements Slippers{
     public void clean() {
         System.out.println("running the clean method");
     }
+
+    @Override
+    public void checkFit() {
+        System.out.println("running the checkFit method");
+    }
 }

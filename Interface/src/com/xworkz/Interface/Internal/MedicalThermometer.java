@@ -15,4 +15,9 @@ public class MedicalThermometer implements Thermometer{
     public void reset() {
         System.out.println("running the reset method");
     }
+
+    @Override
+    public void cleaning() {
+        System.out.println("running the cleaning method");
+    }
 }

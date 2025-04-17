@@ -15,4 +15,9 @@ public class CityMuseum implements Museum {
     public void maintainArtifacts() {
         System.out.println("running the maintainArtifacts method");
     }
+    @Override
+    public void Open() {
+        System.out.println("running the Open method");
+
+    }
 }

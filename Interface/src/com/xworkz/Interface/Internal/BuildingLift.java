@@ -15,4 +15,9 @@ public class BuildingLift implements Lift{
     public void close() {
         System.out.println("running the close method");
     }
+
+    @Override
+    public void display() {
+        System.out.println("running the display method");
+    }
 }

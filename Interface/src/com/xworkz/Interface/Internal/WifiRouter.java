@@ -15,4 +15,9 @@ public class WifiRouter implements Router{
     public void reset() {
         System.out.println("running the reset method");
     }
+
+    @Override
+    public void ReConnection() {
+        System.out.println("running the ReConnection method");
+    }
 }

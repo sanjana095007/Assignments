@@ -15,4 +15,9 @@ public class HomeAirPurifier implements AirPurifier{
     public void displayAirQuality() {
         System.out.println("running the display Air Quality method");
     }
+
+    @Override
+    public void brand() {
+        System.out.println("running the brand method");
+    }
 }

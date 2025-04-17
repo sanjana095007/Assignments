@@ -15,4 +15,9 @@ public class Visa implements CreditCard{
     public void enterPin() {
         System.out.println("running the enter Pin method");
     }
+
+    @Override
+    public void checkBalance() {
+        System.out.println("running the checkBalance method");
+    }
 }

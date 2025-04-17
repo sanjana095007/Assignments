@@ -15,4 +15,9 @@ public class GoldRing implements Gold{
     public void polish() {
         System.out.println("running the polish method");
     }
+
+    @Override
+    public void refine() {
+        System.out.println("running the refine method");
+    }
 }

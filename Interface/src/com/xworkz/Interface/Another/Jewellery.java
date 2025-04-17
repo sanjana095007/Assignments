@@ -23,6 +23,11 @@ public class Jewellery implements Gold, Silver, Platinum {
     }
 
     @Override
+    public void Purity() {
+        System.out.println("running the Purity method in GoldJewellery");
+    }
+
+    @Override
     public void shape() {
         System.out.println("running the shape method in GoldJewellery");
     }
@@ -30,6 +35,11 @@ public class Jewellery implements Gold, Silver, Platinum {
     @Override
     public void polish() {
         System.out.println("running the polish method in GoldJewellery");
+    }
+
+    @Override
+    public void refine() {
+        System.out.println("running the refine method in GoldJewellery");
     }
 
     @Override

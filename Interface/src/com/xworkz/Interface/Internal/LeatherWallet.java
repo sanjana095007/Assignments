@@ -15,4 +15,9 @@ public class LeatherWallet implements Wallet{
     public void close() {
         System.out.println("running the close method");
     }
+
+    @Override
+    public void displayStatus() {
+        System.out.println("running the displayStatus method");
+    }
 }

@@ -15,4 +15,9 @@ public class DoubleDoorFridge implements Fridge{
     public void storeFood() {
         System.out.println("running the store Food method");
     }
+
+    @Override
+    public void checkTemperature() {
+        System.out.println("running the checkTemperature method");
+    }
 }

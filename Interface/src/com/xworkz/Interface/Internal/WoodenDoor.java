@@ -15,4 +15,9 @@ public class WoodenDoor implements Door {
     public void lock() {
         System.out.println("running the lock method");
     }
+
+    @Override
+    public void displayStatus() {
+        System.out.println("running the displayStatus method");
+    }
 }

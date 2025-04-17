@@ -15,4 +15,9 @@ public class DrinkingGlass implements Glass{
     public void mold() {
         System.out.println("running the mold method");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("running the clean method");
+    }
 }

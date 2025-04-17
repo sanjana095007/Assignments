@@ -15,4 +15,5 @@ public class WallPainting implements PaintBrush {
     public void cleanBrush() {
         System.out.println("running the clean Brush Paint method");
     }
+
 }

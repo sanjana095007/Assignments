@@ -15,4 +15,9 @@ public class LEDFlashlight implements Flashlight {
     public void changeBattery() {
         System.out.println("running the change Battery method");
     }
+
+    @Override
+    public void showBatteryStatus() {
+        System.out.println("running the Open method");
+    }
 }

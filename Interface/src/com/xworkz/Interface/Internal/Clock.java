@@ -15,4 +15,9 @@ public class Clock implements AlarmClock{
     public void snooze() {
         System.out.println("running the snooze method");
     }
+
+    @Override
+    public void brand() {
+        System.out.println("running the brand method");
+    }
 }

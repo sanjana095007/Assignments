@@ -16,4 +16,9 @@ public class RobotVacuumCleaner implements VacuumCleaner{
     public void emptyBin() {
         System.out.println("running the empty Bin method");
     }
+
+    @Override
+    public void Cleaning() {
+        System.out.println("running the Cleaning method");
+    }
 }

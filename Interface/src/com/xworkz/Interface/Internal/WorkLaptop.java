@@ -15,4 +15,9 @@ public class WorkLaptop implements Laptop{
     public void runProgram() {
         System.out.println("running the run program method");
     }
+
+    @Override
+    public void BatteryStatus() {
+        System.out.println("running the BatteryStatus method");
+    }
 }

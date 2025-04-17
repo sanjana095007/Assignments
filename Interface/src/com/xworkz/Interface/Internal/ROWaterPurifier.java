@@ -15,4 +15,9 @@ public class ROWaterPurifier implements WaterPurifier{
     public void alertForMaintenance() {
         System.out.println("running the alert For Maintenance method");
     }
+
+    @Override
+    public void clean() {
+        System.out.println("running the clean method");
+    }
 }

@@ -17,4 +17,9 @@ public class WritingPen implements Pen {
     public void cap() {
         System.out.println("running the cap method");
     }
+
+    @Override
+    public void InkLevel() {
+        System.out.println("running the InkLevel method");
+    }
 }

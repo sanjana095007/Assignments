@@ -16,4 +16,9 @@ public class DSLRCamera implements Camera {
     public void zoom() {
         System.out.println("running the zoom method");
     }
+
+    @Override
+    public void focus() {
+        System.out.println("running the focus method");
+    }
 }

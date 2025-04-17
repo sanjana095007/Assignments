@@ -15,4 +15,9 @@ public class JetAirplane implements Airplane{
     public void fly() {
         System.out.println("running the land method");
     }
+
+    @Override
+    public void model() {
+        System.out.println("running the model method");
+    }
 }

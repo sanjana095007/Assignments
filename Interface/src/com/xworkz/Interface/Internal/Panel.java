@@ -15,4 +15,9 @@ public class Panel implements SolarPanel{
     public void store() {
         System.out.println("running the store method");
     }
+
+    @Override
+    public void maintain() {
+        System.out.println("running the Open method");
+    }
 }

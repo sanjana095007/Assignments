@@ -15,4 +15,10 @@ public class CleaningRobot implements Robot{
     public void performTask() {
         System.out.println("running the performTask method");
     }
+
+    @Override
+    public void recharge() {
+        System.out.println("running the recharge method");
+
+    }
 }

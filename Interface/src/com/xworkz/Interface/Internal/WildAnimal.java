@@ -15,4 +15,9 @@ public class WildAnimal implements Animal{
     public void makeSound() {
         System.out.println("running the makeSound method");
     }
+
+    @Override
+    public void Scratch() {
+        System.out.println("running the Scratch method");
+    }
 }

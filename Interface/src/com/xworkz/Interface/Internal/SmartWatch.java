@@ -15,4 +15,9 @@ public class SmartWatch implements Watch{
     public void changeBattery() {
         System.out.println("running the change Battery method");
     }
+
+    @Override
+    public void wear() {
+        System.out.println("running the wear method");
+    }
 }

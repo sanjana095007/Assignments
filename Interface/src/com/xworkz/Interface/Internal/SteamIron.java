@@ -15,4 +15,9 @@ public class SteamIron implements Iron{
     public void weld() {
         System.out.println("running the weld method");
     }
+
+    @Override
+    public void polish() {
+        System.out.println("running the polish method");
+    }
 }

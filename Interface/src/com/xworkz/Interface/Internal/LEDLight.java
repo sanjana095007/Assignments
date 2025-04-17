@@ -15,4 +15,9 @@ public class LEDLight implements Light{
     public void dim() {
         System.out.println("running the blink method");
     }
+
+    @Override
+    public void Bright() {
+        System.out.println("running the Open method");
+    }
 }

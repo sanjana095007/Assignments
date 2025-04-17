@@ -15,4 +15,9 @@ public class BluetoothSpeaker implements Speaker{
     public void decreaseVolume() {
         System.out.println("running the decreaseVolume method");
     }
+
+    @Override
+    public void mute() {
+        System.out.println("running the mute method");
+    }
 }

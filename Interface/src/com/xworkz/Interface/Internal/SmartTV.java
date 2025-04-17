@@ -15,4 +15,9 @@ public class SmartTV  implements Television{
     public void powerOff() {
         System.out.println("running the powerOff method");
     }
+
+    @Override
+    public void tv() {
+        System.out.println("running the tv method");
+    }
 }

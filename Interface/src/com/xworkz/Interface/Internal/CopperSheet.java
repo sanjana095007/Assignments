@@ -15,4 +15,9 @@ public class CopperSheet implements Copper{
     public void recycle() {
         System.out.println("running the recycle method");
     }
+
+    @Override
+    public void checkPurity() {
+        System.out.println("running the checkPurity method");
+    }
 }

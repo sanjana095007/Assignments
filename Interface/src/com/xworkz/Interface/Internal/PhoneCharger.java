@@ -15,4 +15,9 @@ public class PhoneCharger implements Charger{
     public void unplug() {
         System.out.println("running the unplug method");
     }
+
+    @Override
+    public void Battery() {
+        System.out.println("running the Battery method");
+    }
 }

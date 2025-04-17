@@ -15,4 +15,9 @@ public class OfficeChair implements Chair{
     public void fold() {
         System.out.println("running the fold method");
     }
+
+    @Override
+    public void adjustHeight() {
+        System.out.println("running the adjustHeight method");
+    }
 }

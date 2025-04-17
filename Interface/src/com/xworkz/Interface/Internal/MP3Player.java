@@ -15,4 +15,9 @@ public class MP3Player implements MusicPlayer{
     public void stop() {
         System.out.println("running the stop method");
     }
+
+    @Override
+    public void showStatus() {
+        System.out.println("running the showStatus method");
+    }
 }

@@ -15,4 +15,9 @@ public class SilverChain implements Silver {
     public void shine() {
         System.out.println("running the shine method");
     }
+
+    @Override
+    public void Purity() {
+        System.out.println("running the Purity method");
+    }
 }

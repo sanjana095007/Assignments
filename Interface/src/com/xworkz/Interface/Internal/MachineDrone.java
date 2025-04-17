@@ -15,4 +15,9 @@ public class MachineDrone implements Drone {
     public void returnToHome() {
         System.out.println("running the return to Home method");
     }
+
+    @Override
+    public void Status() {
+        System.out.println("running the Status method");
+    }
 }

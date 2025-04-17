@@ -15,4 +15,9 @@ public class LEDBulb implements Bulb{
     public void changeColor() {
         System.out.println("running the change Color method");
     }
+
+    @Override
+    public void powerStatus() {
+        System.out.println("running the Open method");
+    }
 }

@@ -15,4 +15,10 @@ public class Bulldog implements Dog{
     public void wagTail() {
         System.out.println("running the wag Tail method");
     }
+
+    @Override
+    public void displayBehavior() {
+        System.out.println("running the displayBehavior method");
+
+    }
 }

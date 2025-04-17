@@ -15,4 +15,9 @@ public class KingSizeBed implements Bed{
     public void foldBlanket() {
         System.out.println("running the foldBlanket method");
     }
+
+    @Override
+    public void bedType() {
+        System.out.println("running the bedType method");
+    }
 }

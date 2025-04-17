@@ -15,4 +15,9 @@ public class BankATM implements ATM{
     public void withdrawCash() {
         System.out.println("running the withdrawMoney method");
     }
+
+    @Override
+    public void bankName() {
+        System.out.println("running the bankName method");
+    }
 }

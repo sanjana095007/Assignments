@@ -15,4 +15,9 @@ public class PersianCat implements Cat{
     public void climb() {
         System.out.println("running the climb method");
     }
+
+    @Override
+    public void purr() {
+        System.out.println("running the purr method");
+    }
 }
