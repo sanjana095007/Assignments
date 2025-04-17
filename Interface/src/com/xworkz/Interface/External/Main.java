@@ -413,7 +413,7 @@ public class Main {
         watch.setAlarm();
         watch.showTime();
         watch.showTime();
-        System.out.println("====================");
+        System.out.println("=====================");
         WaterPurifier purifier=new ROWaterPurifier();
         purifier.purify();
         purifier.alertForMaintenance();
